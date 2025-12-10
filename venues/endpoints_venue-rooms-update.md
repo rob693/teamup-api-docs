@@ -1,0 +1,41 @@
+# Endpoints_Venue Rooms Update
+
+**Method:** PUT
+**URL:** `/api/v2//venue_rooms/`
+
+## Summary
+Update | TeamUp Developers
+
+## Request Parameters
+(Heuristically extracted. Refine as needed.)
+
+PUT https://goteamup.com/api/v2//venue_rooms/:id
+Must have one of the following permissions: super_admin.
+Path Parametersid integerrequiredA unique integer value identifying this venue room.Query Parametersexpand string[]A comma-separated list of fields to expand.fields string[]A comma-separated list of fields to include. Dot-notation can be used to select nested fields.format stringPossible values: [json, xml]Header ParametersTeamUp-Provider-ID stringID of the provider account the API request is for. Required if the access credentials have access to multiple providers.Teamup-Request-Mode stringPossible values: [customer, provider]The authenticated user may have access to both staff and customer profiles. Indicate which mode that request should run in. Customer mode is more limited. Required if the access credentials have access to both modes.
+application/jsonapplication/x-www-form-urlencodedmultipart/form-dataBodyrequirednamestringrequiredPossible values: non-empty and &lt;= 64 charactersstatusstringrequiredPossible values: [active, archived]thumbnailintegernullableBodyrequirednamestringrequiredPossible values: non-empty and &lt;= 64 charactersstatusstringrequiredPossible values: [active, archived]thumbnailintegernullableBodyrequirednamestringrequiredPossible values: non-empty and &lt;= 64 charactersstatusstringrequiredPossible values: [active, archived]thumbnailintegernullable
+Responses​200application/jsonapplication/xmlSchemaExample (auto)SchemaidintegerrequiredobjectrequiredString representing the object's type. Objects of the same type share the same value.Possible values: [venue_room]statusstringrequiredPossible values: [active, archived]namestringrequiredPossible values: &lt;= 64 charactersvenue integer ExpandablerequiredoneOfExpandableFieldVenueReadintegerThis field is EXPANDABLE.idintegerrequiredobjectrequiredString representing the object's type. Objects of the same type share the same value.Possible values: [venue]namestringrequiredPossible values: &lt;= 200 charactersdescriptionstringnullableaddressstringrequiredphysical_address objectnullablestreetstringrequiredstreet_secondarystringnullablerequiredcitystringrequiredregionstringrequiredpostal_codestringrequiredcountrystringrequiredlatnumber&lt;double&gt;lngnumber&lt;double&gt;timezonestringrequiredPossible values: &lt;= 250 charactersvideo_urlstringnullablezoom_userintegerrequiredvenue_typestringrequiredPossible values: [physical, online]venue_rooms string ExpandablerequiredoneOfExpandableFieldVenueRoom[]stringA URL to a collection of related resources. This field is EXPANDABLE.Example: https://goteamup.com/api/v2/related_collectionArray [0123456789101112131415161718]latnumber&lt;double&gt;requiredlngnumber&lt;double&gt;requiredarchivedbooleanrequiredis_onlinebooleanrequiredvideo_url_typestringPossible values: [static, zoom]thumbnail objectidintegerrequiredobjectrequiredString representing the object's type. Objects of the same type share the same value.Possible values: [image]urlstring&lt;uri&gt;requiredprofileintegernullableoriginal_widthintegernullablePossible values: &gt;= -2147483648 and &lt;= 2147483647original_heightintegernullablePossible values: &gt;= -2147483648 and &lt;= 2147483647userintegernullablecreated_atstring&lt;date-time&gt;required{  "id": 0,  "status": "active",  "name": "string",  "venue": 0,  "thumbnail": {    "id": 0,    "url": "string",    "profile": 0,    "original_width": 0,    "original_height": 0,    "user": 0,    "created_at": "2024-07-29T15:51:28.071Z"  }}SchemaExample (auto)SchemaidintegerrequiredobjectrequiredString representing the object's type. Objects of the same type share the same value.Possible values: [venue_room]statusstringrequiredPossible values: [active, archived]namestringrequiredPossible values: &lt;= 64 charactersvenue integer ExpandablerequiredoneOfExpandableFieldVenueReadintegerThis field is EXPANDABLE.idintegerrequiredobjectrequiredString representing the object's type. Objects of the same type share the same value.Possible values: [venue]namestringrequiredPossible values: &lt;= 200 charactersdescriptionstringnullableaddressstringrequiredphysical_address objectnullablestreetstringrequiredstreet_secondarystringnullablerequiredcitystringrequiredregionstringrequiredpostal_codestringrequiredcountrystringrequiredlatnumber&lt;double&gt;lngnumber&lt;double&gt;timezonestringrequiredPossible values: &lt;= 250 charactersvideo_urlstringnullablezoom_userintegerrequiredvenue_typestringrequiredPossible values: [physical, online]venue_rooms string ExpandablerequiredoneOfExpandableFieldVenueRoom[]stringA URL to a collection of related resources. This field is EXPANDABLE.Example: https://goteamup.com/api/v2/related_collectionArray [0123456789101112131415161718]latnumber&lt;double&gt;requiredlngnumber&lt;double&gt;requiredarchivedbooleanrequiredis_onlinebooleanrequiredvideo_url_typestringPossible values: [static, zoom]thumbnail objectidintegerrequiredobjectrequiredString representing the object's type. Objects of the same type share the same value.Possible values: [image]urlstring&lt;uri&gt;requiredprofileintegernullableoriginal_widthintegernullablePossible values: &gt;= -2147483648 and &lt;= 2147483647original_heightintegernullablePossible values: &gt;= -2147483648 and &lt;= 2147483647userintegernullablecreated_atstring&lt;date-time&gt;required&lt;root&gt;  &lt;id&gt;0&lt;/id&gt;  &lt;status&gt;active&lt;/status&gt;  &lt;name&gt;string&lt;/name&gt;  &lt;venue&gt;0&lt;/venue&gt;  &lt;thumbnail&gt;    &lt;id&gt;0&lt;/id&gt;    &lt;url&gt;string&lt;/url&gt;    &lt;profile&gt;0&lt;/profile&gt;    &lt;original_width&gt;0&lt;/original_width&gt;    &lt;original_height&gt;0&lt;/original_height&gt;    &lt;user&gt;0&lt;/user&gt;    &lt;created_at&gt;2024-07-29T15:51:28.071Z&lt;/created_at&gt;  &lt;/thumbnail&gt;&lt;/root&gt;Authorization: Authorizationname: Authorizationtype: httpscheme: bearerin: headerdescription: Use the prefix `Token ` followed by the token value.pythoncurlphpjavascriptswiftrustrubyHTTP.CLIENTREQUESTSimport http.clientimport jsonconn = http.client.HTTPSConnection("goteamup.com")payload = json.dumps({  "name": "string",  "status": "active",  "thumbnail": 0})headers = {  'Content-Type': 'application/json',  'Accept': 'application/json',  'Authorization': 'Bearer &lt;Authorization&gt;'}conn.request("PUT", "/api/v2/venue_rooms/:id", payload, headers)res = conn.getresponse()data = res.read()print(data.decode("utf-8"))Request Collapse allBase URLEdithttps://goteamup.com/api/v2AuthSecurity SchemeToken AuthenticationJWT AuthenticationBearer TokenParametersid — pathrequiredShow optional parametersexpand — queryAdd itemfields — queryAdd itemformat — query---jsonxmlTeamUp-Provider-ID — headerTeamup-Request-Mode — header---customerproviderBody&nbsp;requiredContent-Typeapplication/jsonapplication/x-www-form-urlencodedmultipart/form-data{
+"name": "string",
+"status": "active",
+"thumbnail": 0
+## Example Request / Response JSON
+```json
+{  "id": 0,  "status": "active",  "name": "string",  "venue": 0,  "thumbnail": {    "id": 0,    "url": "string",    "profile": 0,    "original_width": 0,    "original_height": 0,    "user": 0,    "created_at": "2024-07-29T15:51:28.071Z"  }
+```
+
+```json
+{  "name": "string",  "status": "active",  "thumbnail": 0}
+```
+
+```json
+{  'Content-Type': 'application/json',  'Accept': 'application/json',  'Authorization': 'Bearer &lt;Authorization&gt;'}
+```
+
+```json
+{
+"name": "string",
+"status": "active",
+"thumbnail": 0
+}
+```
+
+
