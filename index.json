@@ -1,0 +1,4546 @@
+[
+    {
+        "endpoint": "endpoints_providers-trial-status-retrieve",
+        "category": "providers",
+        "method": "GET",
+        "url": "/api/v2//providers/",
+        "summary": "Trial Status | TeamUp Developers",
+        "file": "teamup_api_clean/providers/endpoints_providers-trial-status-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_crm-workflows-list",
+        "category": "crm",
+        "method": "GET",
+        "url": "/api/v2//crm/workflows",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-workflows-list.md"
+    },
+    {
+        "endpoint": "endpoints_store-settings-retrieve",
+        "category": "store",
+        "method": "GET",
+        "url": "/api/v2//store/settings",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-settings-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_waiver-signatures-report",
+        "category": "reports",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Waiver Signatures Report | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_waiver-signatures-report.md"
+    },
+    {
+        "endpoint": "endpoints_payment-methods-list",
+        "category": "payments",
+        "method": "GET",
+        "url": "/api/v2//payment_methods",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/payments/endpoints_payment-methods-list.md"
+    },
+    {
+        "endpoint": "endpoints_attendances-report",
+        "category": "attendance",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Attendances Report | TeamUp Developers",
+        "file": "teamup_api_clean/attendance/endpoints_attendances-report.md"
+    },
+    {
+        "endpoint": "endpoints_crm-workflows-update",
+        "category": "crm",
+        "method": "PUT",
+        "url": "/api/v2//crm/workflows/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-workflows-update.md"
+    },
+    {
+        "endpoint": "endpoints_communication-notification-types-membership-penalty-messages-list",
+        "category": "memberships",
+        "method": "GET",
+        "url": "/api/v2//communication/notification_types/membership_penalty/messages",
+        "summary": "List Messages | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_communication-notification-types-membership-penalty-messages-list.md"
+    },
+    {
+        "endpoint": "endpoints_customer-form-submissions",
+        "category": "customers",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Customer Form Submissions | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-form-submissions.md"
+    },
+    {
+        "endpoint": "endpoints_reports-invoice-line-items-grouped-export-export-data",
+        "category": "invoices",
+        "method": "GET",
+        "url": "/api/v2//reports/invoice_line_items",
+        "summary": "Grouped Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/invoices/endpoints_reports-invoice-line-items-grouped-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_external-calendars-staff-calendar-settings-create",
+        "category": "external-calendars",
+        "method": "POST",
+        "url": "/api/v2//external_calendars/staff_calendar_settings",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/external-calendars/endpoints_external-calendars-staff-calendar-settings-create.md"
+    },
+    {
+        "endpoint": "endpoints_reports-store-order-items-data-get-data",
+        "category": "store",
+        "method": "GET",
+        "url": "/api/v2//reports/store_order_items/data",
+        "summary": "Data | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_reports-store-order-items-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_gift-cards-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//gift_cards/",
+        "summary": "Retrieve Gift Card | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_gift-cards-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_discount-code-applicabilities-list",
+        "category": "discount-codes",
+        "method": "GET",
+        "url": "/api/v2//discount_code_applicabilities",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/discount-codes/endpoints_discount-code-applicabilities-list.md"
+    },
+    {
+        "endpoint": "endpoints_webhook-destinations-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//webhook_destinations",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_webhook-destinations-list.md"
+    },
+    {
+        "endpoint": "endpoints_reports-attendances-data-get-data",
+        "category": "attendance",
+        "method": "GET",
+        "url": "/api/v2//reports/attendances/data",
+        "summary": "Data | TeamUp Developers",
+        "file": "teamup_api_clean/attendance/endpoints_reports-attendances-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_availability-schedules-partial-update",
+        "category": "misc",
+        "method": "PATCH",
+        "url": "/api/v2//availability_schedules/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_availability-schedules-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_business-closures-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//business_closures",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_business-closures-list.md"
+    },
+    {
+        "endpoint": "endpoints_membership-penalty-notifications",
+        "category": "memberships",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Membership Penalty Notifications | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-penalty-notifications.md"
+    },
+    {
+        "endpoint": "endpoints_family-invites-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//family_invites",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_family-invites-create.md"
+    },
+    {
+        "endpoint": "endpoints_store-products-ordering-partial-update",
+        "category": "store",
+        "method": "PATCH",
+        "url": "/api/v2//store/products/ordering",
+        "summary": "Ordering | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-products-ordering-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_communication-notification-types-membership-penalty-messages-partial-update",
+        "category": "memberships",
+        "method": "PATCH",
+        "url": "/api/v2//communication/notification_types/membership_penalty/messages/",
+        "summary": "Partially Update Message | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_communication-notification-types-membership-penalty-messages-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_providers-customer-referral-settings-retrieve",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//providers/",
+        "summary": "Customer Referral Settings | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_providers-customer-referral-settings-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_reports-customers-export-export-data",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//reports/customers/export",
+        "summary": "Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_reports-customers-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_customers-bulk-delete-create",
+        "category": "customers",
+        "method": "POST",
+        "url": "/api/v2//customers/bulk_delete",
+        "summary": "Bulk Delete | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customers-bulk-delete-create.md"
+    },
+    {
+        "endpoint": "endpoints_invoices",
+        "category": "invoices",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Invoices | TeamUp Developers",
+        "file": "teamup_api_clean/invoices/endpoints_invoices.md"
+    },
+    {
+        "endpoint": "endpoints_memberships-ordering-partial-update",
+        "category": "memberships",
+        "method": "PATCH",
+        "url": "/api/v2//memberships/ordering",
+        "summary": "Ordering | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_memberships-ordering-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_customers-change-email-create",
+        "category": "customers",
+        "method": "POST",
+        "url": "/api/v2//customers/",
+        "summary": "Change Email | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customers-change-email-create.md"
+    },
+    {
+        "endpoint": "endpoints_instructor-pay-rates-update",
+        "category": "misc",
+        "method": "PUT",
+        "url": "/api/v2//instructor_pay_rates/",
+        "summary": "Update Instructor Pay Rate | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_instructor-pay-rates-update.md"
+    },
+    {
+        "endpoint": "endpoints_reports-discount-code-uses-grouped-export-export-data",
+        "category": "discount-codes",
+        "method": "GET",
+        "url": "/api/v2//reports/discount_code_uses",
+        "summary": "Grouped Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/discount-codes/endpoints_reports-discount-code-uses-grouped-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_customer-memberships-bulk-extend-expiration-dates-update",
+        "category": "customers",
+        "method": "PUT",
+        "url": "/api/v2//customer_memberships/bulk_extend_expiration_dates",
+        "summary": "Bulk Extend Expiration Dates | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-memberships-bulk-extend-expiration-dates-update.md"
+    },
+    {
+        "endpoint": "endpoints_integrations-learn-to-skate-verify-membership-create",
+        "category": "memberships",
+        "method": "POST",
+        "url": "/api/v2//integrations/learn_to_skate/verify_membership",
+        "summary": "Verify consumer membership | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_integrations-learn-to-skate-verify-membership-create.md"
+    },
+    {
+        "endpoint": "endpoints_content-remove-favorite-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//content/",
+        "summary": "Remove Favorite | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_content-remove-favorite-create.md"
+    },
+    {
+        "endpoint": "endpoints_integrations-learn-to-skate-resend-account-link-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//integrations/learn_to_skate/resend_account_link",
+        "summary": "Resend consumer membership account link | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_integrations-learn-to-skate-resend-account-link-create.md"
+    },
+    {
+        "endpoint": "endpoints_product-variant-attributes",
+        "category": "store",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Product Variant Attributes | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_product-variant-attributes.md"
+    },
+    {
+        "endpoint": "endpoints_discount-codes-create",
+        "category": "discount-codes",
+        "method": "POST",
+        "url": "/api/v2//discount_codes",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/discount-codes/endpoints_discount-codes-create.md"
+    },
+    {
+        "endpoint": "endpoints_registration-eligibility",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Registration Eligibility | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_registration-eligibility.md"
+    },
+    {
+        "endpoint": "endpoints_customer-issues-retrieve",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customer_issues/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-issues-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_store-products-destroy",
+        "category": "store",
+        "method": "DELETE",
+        "url": "/api/v2//store/products/",
+        "summary": "Delete | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-products-destroy.md"
+    },
+    {
+        "endpoint": "endpoints_providers-list",
+        "category": "providers",
+        "method": "GET",
+        "url": "/api/v2//providers",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/providers/endpoints_providers-list.md"
+    },
+    {
+        "endpoint": "endpoints_reports-waiver-signatures-data-get-data",
+        "category": "reports",
+        "method": "GET",
+        "url": "/api/v2//reports/waiver_signatures/data",
+        "summary": "Data | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_reports-waiver-signatures-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_membership-registration-grants-update",
+        "category": "memberships",
+        "method": "PUT",
+        "url": "/api/v2//membership_registration_grants/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-registration-grants-update.md"
+    },
+    {
+        "endpoint": "endpoints_external-calendars-events-list",
+        "category": "events",
+        "method": "GET",
+        "url": "/api/v2//external_calendars/events",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/events/endpoints_external-calendars-events-list.md"
+    },
+    {
+        "endpoint": "endpoints_customer-registration-blocks",
+        "category": "customers",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Customer Registration Blocks | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-registration-blocks.md"
+    },
+    {
+        "endpoint": "endpoints_customer-membership-holds-retrieve",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customer_membership_holds/",
+        "summary": "Retrieve a specific membership hold | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-membership-holds-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_reports-sms-messages-grouped-data-get-data",
+        "category": "reports",
+        "method": "GET",
+        "url": "/api/v2//reports/sms_messages",
+        "summary": "Grouped Data | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_reports-sms-messages-grouped-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_membership-registration-grants-list",
+        "category": "memberships",
+        "method": "GET",
+        "url": "/api/v2//membership_registration_grants",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-registration-grants-list.md"
+    },
+    {
+        "endpoint": "endpoints_crm-workflow-actions-create",
+        "category": "crm",
+        "method": "POST",
+        "url": "/api/v2//crm/workflow_actions",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-workflow-actions-create.md"
+    },
+    {
+        "endpoint": "endpoints_venue-rooms-list",
+        "category": "venues",
+        "method": "GET",
+        "url": "/api/v2//venue_rooms",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/venues/endpoints_venue-rooms-list.md"
+    },
+    {
+        "endpoint": "endpoints_events-generate-online-access-link-create",
+        "category": "events",
+        "method": "POST",
+        "url": "/api/v2//events/",
+        "summary": "Generate Online Access Link | TeamUp Developers",
+        "file": "teamup_api_clean/events/endpoints_events-generate-online-access-link-create.md"
+    },
+    {
+        "endpoint": "endpoints_discount-codes",
+        "category": "discount-codes",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Discount Codes | TeamUp Developers",
+        "file": "teamup_api_clean/discount-codes/endpoints_discount-codes.md"
+    },
+    {
+        "endpoint": "endpoints_payment-processors",
+        "category": "payments",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Payment Processors | TeamUp Developers",
+        "file": "teamup_api_clean/payments/endpoints_payment-processors.md"
+    },
+    {
+        "endpoint": "endpoints_content-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//content/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_content-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_offering-types-partial-update",
+        "category": "misc",
+        "method": "PATCH",
+        "url": "/api/v2//offering_types/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_offering-types-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_calendar-sync-settings",
+        "category": "external-calendars",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Calendar Sync Settings | TeamUp Developers",
+        "file": "teamup_api_clean/external-calendars/endpoints_calendar-sync-settings.md"
+    },
+    {
+        "endpoint": "endpoints_instructor-pay-rates",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Instructor Pay Rates | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_instructor-pay-rates.md"
+    },
+    {
+        "endpoint": "endpoints_terminologies-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//terminologies/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_terminologies-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_providers-retrieve",
+        "category": "providers",
+        "method": "GET",
+        "url": "/api/v2//providers/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/providers/endpoints_providers-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_external-calendars-staff-calendar-settings-retrieve",
+        "category": "external-calendars",
+        "method": "GET",
+        "url": "/api/v2//external_calendars/staff_calendar_settings/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/external-calendars/endpoints_external-calendars-staff-calendar-settings-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_membership-penalty-systems-retrieve",
+        "category": "memberships",
+        "method": "GET",
+        "url": "/api/v2//membership_penalty_systems/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-penalty-systems-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_venue-rooms-update",
+        "category": "venues",
+        "method": "PUT",
+        "url": "/api/v2//venue_rooms/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/venues/endpoints_venue-rooms-update.md"
+    },
+    {
+        "endpoint": "endpoints_policy-agreements-list",
+        "category": "policies",
+        "method": "GET",
+        "url": "/api/v2//policy_agreements",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/policies/endpoints_policy-agreements-list.md"
+    },
+    {
+        "endpoint": "endpoints_push-notification-tokens-partial-update",
+        "category": "misc",
+        "method": "PATCH",
+        "url": "/api/v2//push_notification_tokens/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_push-notification-tokens-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_course-session-attendances-list",
+        "category": "attendance",
+        "method": "GET",
+        "url": "/api/v2//course_session_attendances",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/attendance/endpoints_course-session-attendances-list.md"
+    },
+    {
+        "endpoint": "endpoints_reports-customers-grouped-data-get-data",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//reports/customers",
+        "summary": "Grouped Data | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_reports-customers-grouped-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_reports-store-order-items-grouped-export-export-data",
+        "category": "store",
+        "method": "GET",
+        "url": "/api/v2//reports/store_order_items",
+        "summary": "Grouped Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_reports-store-order-items-grouped-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_bulk-actions-results-list",
+        "category": "bulk-actions",
+        "method": "GET",
+        "url": "/api/v2//bulk_actions/",
+        "summary": "Results | TeamUp Developers",
+        "file": "teamup_api_clean/bulk-actions/endpoints_bulk-actions-results-list.md"
+    },
+    {
+        "endpoint": "endpoints_venue-rooms-retrieve",
+        "category": "venues",
+        "method": "GET",
+        "url": "/api/v2//venue_rooms/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/venues/endpoints_venue-rooms-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_products",
+        "category": "store",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Products | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_products.md"
+    },
+    {
+        "endpoint": "endpoints_webhook-destinations-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//webhook_destinations",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_webhook-destinations-create.md"
+    },
+    {
+        "endpoint": "endpoints_gift-cards-config-partial-update",
+        "category": "misc",
+        "method": "PATCH",
+        "url": "/api/v2//gift_cards/config",
+        "summary": "Update Config | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_gift-cards-config-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_events-leave-waitlist-create",
+        "category": "events",
+        "method": "POST",
+        "url": "/api/v2//events/",
+        "summary": "Leave Waitlist | TeamUp Developers",
+        "file": "teamup_api_clean/events/endpoints_events-leave-waitlist-create.md"
+    },
+    {
+        "endpoint": "endpoints_teamup-rest-api",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "TeamUp REST API | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_teamup-rest-api.md"
+    },
+    {
+        "endpoint": "endpoints_reports-attendance-strikes-data-get-data",
+        "category": "attendance",
+        "method": "GET",
+        "url": "/api/v2//reports/attendance_strikes/data",
+        "summary": "Data | TeamUp Developers",
+        "file": "teamup_api_clean/attendance/endpoints_reports-attendance-strikes-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_external-calendars-staff-calendar-settings-destroy",
+        "category": "external-calendars",
+        "method": "DELETE",
+        "url": "/api/v2//external_calendars/staff_calendar_settings/",
+        "summary": "Delete | TeamUp Developers",
+        "file": "teamup_api_clean/external-calendars/endpoints_external-calendars-staff-calendar-settings-destroy.md"
+    },
+    {
+        "endpoint": "endpoints_attendance-strikes-report",
+        "category": "attendance",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Attendance Strikes Report | TeamUp Developers",
+        "file": "teamup_api_clean/attendance/endpoints_attendance-strikes-report.md"
+    },
+    {
+        "endpoint": "endpoints_staff-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//staff",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_staff-list.md"
+    },
+    {
+        "endpoint": "endpoints_store-products-partial-update",
+        "category": "store",
+        "method": "PATCH",
+        "url": "/api/v2//store/products/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-products-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_recurring-reservations-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//recurring_reservations/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_recurring-reservations-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_content-generate-access-link-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//content/",
+        "summary": "Generate Access Link | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_content-generate-access-link-create.md"
+    },
+    {
+        "endpoint": "endpoints_customer-memberships",
+        "category": "customers",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Customer Memberships | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-memberships.md"
+    },
+    {
+        "endpoint": "endpoints_membership-terms-list",
+        "category": "memberships",
+        "method": "GET",
+        "url": "/api/v2//membership_terms",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-terms-list.md"
+    },
+    {
+        "endpoint": "endpoints_crm-lead-forms-create",
+        "category": "crm",
+        "method": "POST",
+        "url": "/api/v2//crm/lead_forms",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-lead-forms-create.md"
+    },
+    {
+        "endpoint": "endpoints_crm-lead-sources-create",
+        "category": "crm",
+        "method": "POST",
+        "url": "/api/v2//crm/lead_sources",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-lead-sources-create.md"
+    },
+    {
+        "endpoint": "endpoints_recurring-reservations",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Recurring Reservations | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_recurring-reservations.md"
+    },
+    {
+        "endpoint": "endpoints_membership-penalty-systems-create",
+        "category": "memberships",
+        "method": "POST",
+        "url": "/api/v2//membership_penalty_systems",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-penalty-systems-create.md"
+    },
+    {
+        "endpoint": "endpoints_membership-categories-ordering-partial-update",
+        "category": "memberships",
+        "method": "PATCH",
+        "url": "/api/v2//membership_categories/ordering",
+        "summary": "Reorder | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-categories-ordering-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_policy-versions",
+        "category": "policies",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Policy Versions | TeamUp Developers",
+        "file": "teamup_api_clean/policies/endpoints_policy-versions.md"
+    },
+    {
+        "endpoint": "endpoints_content-collections-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//content_collections/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_content-collections-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_checkins-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//checkins",
+        "summary": "checkins_create | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_checkins-create.md"
+    },
+    {
+        "endpoint": "endpoints_crm-workflow-triggers-retrieve",
+        "category": "crm",
+        "method": "GET",
+        "url": "/api/v2//crm/workflow_triggers/",
+        "summary": "crm_workflow_triggers_retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-workflow-triggers-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_customer-fields-create",
+        "category": "customers",
+        "method": "POST",
+        "url": "/api/v2//customer_fields",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-fields-create.md"
+    },
+    {
+        "endpoint": "endpoints_store-orders-cancel-create",
+        "category": "store",
+        "method": "POST",
+        "url": "/api/v2//store/orders/",
+        "summary": "Cancel | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-orders-cancel-create.md"
+    },
+    {
+        "endpoint": "endpoints_customer-forms-destroy",
+        "category": "customers",
+        "method": "DELETE",
+        "url": "/api/v2//customer_forms/",
+        "summary": "Delete Customer Form | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-forms-destroy.md"
+    },
+    {
+        "endpoint": "endpoints_reports-customer-field-changes-data-get-data",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//reports/customer_field_changes/data",
+        "summary": "Data | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_reports-customer-field-changes-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_instructors-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//instructors",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_instructors-create.md"
+    },
+    {
+        "endpoint": "endpoints_store-orders-retrieve",
+        "category": "store",
+        "method": "GET",
+        "url": "/api/v2//store/orders/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-orders-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_memberships",
+        "category": "memberships",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Memberships | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_memberships.md"
+    },
+    {
+        "endpoint": "endpoints_discount-codes-deactivate-all-create",
+        "category": "discount-codes",
+        "method": "POST",
+        "url": "/api/v2//discount_codes/deactivate_all",
+        "summary": "Deactivate All Discount Codes | TeamUp Developers",
+        "file": "teamup_api_clean/discount-codes/endpoints_discount-codes-deactivate-all-create.md"
+    },
+    {
+        "endpoint": "endpoints_memberships-allotment-retrieve",
+        "category": "memberships",
+        "method": "GET",
+        "url": "/api/v2//memberships/",
+        "summary": "Allotment | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_memberships-allotment-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_checkouts-items-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//checkouts/",
+        "summary": "Get Or Remove Item | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_checkouts-items-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_integrations-kisi-groups-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//integrations/kisi/groups/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_integrations-kisi-groups-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_order-items",
+        "category": "store",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Order Items | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_order-items.md"
+    },
+    {
+        "endpoint": "endpoints_registration-timelines",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Registration Timelines | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_registration-timelines.md"
+    },
+    {
+        "endpoint": "endpoints_policy-agreements-create",
+        "category": "policies",
+        "method": "POST",
+        "url": "/api/v2//policy_agreements",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/policies/endpoints_policy-agreements-create.md"
+    },
+    {
+        "endpoint": "endpoints_payment-methods-destroy",
+        "category": "payments",
+        "method": "DELETE",
+        "url": "/api/v2//payment_methods/",
+        "summary": "Delete | TeamUp Developers",
+        "file": "teamup_api_clean/payments/endpoints_payment-methods-destroy.md"
+    },
+    {
+        "endpoint": "endpoints_membership-payment-plans",
+        "category": "memberships",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Membership Payment Plans | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-payment-plans.md"
+    },
+    {
+        "endpoint": "endpoints_external-calendars-accounts-destroy",
+        "category": "external-calendars",
+        "method": "DELETE",
+        "url": "/api/v2//external_calendars/accounts/",
+        "summary": "Delete | TeamUp Developers",
+        "file": "teamup_api_clean/external-calendars/endpoints_external-calendars-accounts-destroy.md"
+    },
+    {
+        "endpoint": "endpoints_checkouts-update",
+        "category": "misc",
+        "method": "PUT",
+        "url": "/api/v2//checkouts/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_checkouts-update.md"
+    },
+    {
+        "endpoint": "endpoints_registration-eligibility-check-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//registration_eligibility/check",
+        "summary": "Check | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_registration-eligibility-check-create.md"
+    },
+    {
+        "endpoint": "endpoints_courses-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//courses",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_courses-list.md"
+    },
+    {
+        "endpoint": "endpoints_communication-notification-types-membership-penalty-retrieve",
+        "category": "memberships",
+        "method": "GET",
+        "url": "/api/v2//communication/notification_types/membership_penalty",
+        "summary": "Get Metadata | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_communication-notification-types-membership-penalty-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_customer-referrals-report",
+        "category": "customers",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Customer Referrals Report | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-referrals-report.md"
+    },
+    {
+        "endpoint": "endpoints_discount-codes-bulk-generate-create",
+        "category": "discount-codes",
+        "method": "POST",
+        "url": "/api/v2//discount_codes/bulk_generate",
+        "summary": "Bulk Generate Discount Codes | TeamUp Developers",
+        "file": "teamup_api_clean/discount-codes/endpoints_discount-codes-bulk-generate-create.md"
+    },
+    {
+        "endpoint": "endpoints_customer-memberships-retrieve",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customer_memberships/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-memberships-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_customer-memberships-report",
+        "category": "customers",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Customer Memberships Report | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-memberships-report.md"
+    },
+    {
+        "endpoint": "endpoints_reports-gift-cards-export-export-data",
+        "category": "reports",
+        "method": "GET",
+        "url": "/api/v2//reports/gift_cards/export",
+        "summary": "Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_reports-gift-cards-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_memberships-list",
+        "category": "memberships",
+        "method": "GET",
+        "url": "/api/v2//memberships",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_memberships-list.md"
+    },
+    {
+        "endpoint": "endpoints_store-products-create",
+        "category": "store",
+        "method": "POST",
+        "url": "/api/v2//store/products",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-products-create.md"
+    },
+    {
+        "endpoint": "endpoints_customer-issues",
+        "category": "customers",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Customer Issues | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-issues.md"
+    },
+    {
+        "endpoint": "endpoints_terminologies",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Terminologies | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_terminologies.md"
+    },
+    {
+        "endpoint": "endpoints_reports-store-order-items-export-export-data",
+        "category": "store",
+        "method": "GET",
+        "url": "/api/v2//reports/store_order_items/export",
+        "summary": "Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_reports-store-order-items-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_content-collections",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Content Collections | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_content-collections.md"
+    },
+    {
+        "endpoint": "endpoints_reports-customer-memberships-export-export-data",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//reports/customer_memberships/export",
+        "summary": "Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_reports-customer-memberships-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_discount-code-applicabilities-partial-update",
+        "category": "discount-codes",
+        "method": "PATCH",
+        "url": "/api/v2//discount_code_applicabilities/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/discount-codes/endpoints_discount-code-applicabilities-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_webhook-destinations",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Webhook Destinations | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_webhook-destinations.md"
+    },
+    {
+        "endpoint": "endpoints_membership-categories",
+        "category": "memberships",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Membership Categories | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-categories.md"
+    },
+    {
+        "endpoint": "endpoints_store-inventory-adjustments-create",
+        "category": "store",
+        "method": "POST",
+        "url": "/api/v2//store/inventory_adjustments",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-inventory-adjustments-create.md"
+    },
+    {
+        "endpoint": "endpoints_reports-course-session-attendances-export-export-data",
+        "category": "attendance",
+        "method": "GET",
+        "url": "/api/v2//reports/course_session_attendances/export",
+        "summary": "Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/attendance/endpoints_reports-course-session-attendances-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_customer-memberships-bulk-create-holds-update",
+        "category": "customers",
+        "method": "PUT",
+        "url": "/api/v2//customer_memberships/bulk_create_holds",
+        "summary": "Bulk Create Holds | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-memberships-bulk-create-holds-update.md"
+    },
+    {
+        "endpoint": "endpoints_registration-timelines-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//registration_timelines",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_registration-timelines-list.md"
+    },
+    {
+        "endpoint": "endpoints_crm-workflows-retrieve",
+        "category": "crm",
+        "method": "GET",
+        "url": "/api/v2//crm/workflows/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-workflows-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_push-notification-tokens-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//push_notification_tokens",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_push-notification-tokens-list.md"
+    },
+    {
+        "endpoint": "endpoints_reports-waiver-signatures-export-export-data",
+        "category": "reports",
+        "method": "GET",
+        "url": "/api/v2//reports/waiver_signatures/export",
+        "summary": "Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_reports-waiver-signatures-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_discount-code-uses-report",
+        "category": "discount-codes",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Discount Code Uses Report | TeamUp Developers",
+        "file": "teamup_api_clean/discount-codes/endpoints_discount-code-uses-report.md"
+    },
+    {
+        "endpoint": "endpoints_availability-schedules-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//availability_schedules",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_availability-schedules-list.md"
+    },
+    {
+        "endpoint": "endpoints_availability-schedules-destroy",
+        "category": "misc",
+        "method": "DELETE",
+        "url": "/api/v2//availability_schedules/",
+        "summary": "Delete | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_availability-schedules-destroy.md"
+    },
+    {
+        "endpoint": "endpoints_communication-notification-types-membership-penalty-messages-destroy",
+        "category": "memberships",
+        "method": "DELETE",
+        "url": "/api/v2//communication/notification_types/membership_penalty/messages/",
+        "summary": "Delete Message | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_communication-notification-types-membership-penalty-messages-destroy.md"
+    },
+    {
+        "endpoint": "endpoints_customer-memberships-share-status-retrieve",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customer_memberships/",
+        "summary": "Share Status | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-memberships-share-status-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_providers-email-settings-retrieve",
+        "category": "providers",
+        "method": "GET",
+        "url": "/api/v2//providers/",
+        "summary": "Email Settings | TeamUp Developers",
+        "file": "teamup_api_clean/providers/endpoints_providers-email-settings-retrieve.md"
+    },
+    {
+        "endpoint": "expanding-responses",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2/attendances",
+        "summary": "Expanding Responses | TeamUp Developers",
+        "file": "teamup_api_clean/misc/expanding-responses.md"
+    },
+    {
+        "endpoint": "endpoints_membership-payment-plans-retrieve",
+        "category": "memberships",
+        "method": "GET",
+        "url": "/api/v2//membership_payment_plans/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-payment-plans-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_business-advisor-reports",
+        "category": "reports",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Business Advisor Reports | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_business-advisor-reports.md"
+    },
+    {
+        "endpoint": "endpoints_customer-fields-retrieve",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customer_fields/",
+        "summary": "Retrieve a Customer Field | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-fields-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_customers-create",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customers",
+        "summary": "Create a customer | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customers-create.md"
+    },
+    {
+        "endpoint": "endpoints_reports-invoices-grouped-export-export-data",
+        "category": "invoices",
+        "method": "GET",
+        "url": "/api/v2//reports/invoices",
+        "summary": "Grouped Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/invoices/endpoints_reports-invoices-grouped-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_customer-field-values-update",
+        "category": "customers",
+        "method": "PUT",
+        "url": "/api/v2//customer_field_values/",
+        "summary": "Update Customer Field Value | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-field-values-update.md"
+    },
+    {
+        "endpoint": "endpoints_membership-categories-list",
+        "category": "memberships",
+        "method": "GET",
+        "url": "/api/v2//membership_categories",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-categories-list.md"
+    },
+    {
+        "endpoint": "endpoints_reports-customer-membership-holds-data-get-data",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//reports/customer_membership_holds/data",
+        "summary": "Data | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_reports-customer-membership-holds-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_reports-customer-memberships-grouped-export-export-data",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//reports/customer_memberships",
+        "summary": "Grouped Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_reports-customer-memberships-grouped-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_availability-schedules-overrides-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//availability_schedules/",
+        "summary": "Overrides | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_availability-schedules-overrides-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_invoice-line-items-report",
+        "category": "invoices",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Invoice Line Items Report | TeamUp Developers",
+        "file": "teamup_api_clean/invoices/endpoints_invoice-line-items-report.md"
+    },
+    {
+        "endpoint": "endpoints_kisi-groups",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Kisi Groups | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_kisi-groups.md"
+    },
+    {
+        "endpoint": "endpoints_crm-lead-sources-partial-update",
+        "category": "crm",
+        "method": "PATCH",
+        "url": "/api/v2//crm/lead_sources/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-lead-sources-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_customers-change-password-create",
+        "category": "customers",
+        "method": "POST",
+        "url": "/api/v2//customers/",
+        "summary": "Change Password | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customers-change-password-create.md"
+    },
+    {
+        "endpoint": "endpoints_feature-flags",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Feature Flags | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_feature-flags.md"
+    },
+    {
+        "endpoint": "endpoints_crm-lead-forms-retrieve",
+        "category": "crm",
+        "method": "GET",
+        "url": "/api/v2//crm/lead_forms/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-lead-forms-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_reports-gift-cards-data-get-data",
+        "category": "reports",
+        "method": "GET",
+        "url": "/api/v2//reports/gift_cards/data",
+        "summary": "Data | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_reports-gift-cards-data-get-data.md"
+    },
+    {
+        "endpoint": "rate-limits",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Rate Limits | TeamUp Developers",
+        "file": "teamup_api_clean/misc/rate-limits.md"
+    },
+    {
+        "endpoint": "endpoints_customer-form-submissions-list",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customer_form_submissions",
+        "summary": "List Customer Form Submissions | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-form-submissions-list.md"
+    },
+    {
+        "endpoint": "endpoints_reports-content-views-export-export-data",
+        "category": "reports",
+        "method": "GET",
+        "url": "/api/v2//reports/content_views/export",
+        "summary": "Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_reports-content-views-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_integrations-learn-to-skate-abandon-membership-create",
+        "category": "memberships",
+        "method": "POST",
+        "url": "/api/v2//integrations/learn_to_skate/abandon_membership",
+        "summary": "Abandon consumer membership | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_integrations-learn-to-skate-abandon-membership-create.md"
+    },
+    {
+        "endpoint": "endpoints_providers-theme-partial-update",
+        "category": "providers",
+        "method": "PATCH",
+        "url": "/api/v2//providers/",
+        "summary": "Update Theme | TeamUp Developers",
+        "file": "teamup_api_clean/providers/endpoints_providers-theme-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_membership-penalty-systems-update",
+        "category": "memberships",
+        "method": "PUT",
+        "url": "/api/v2//membership_penalty_systems/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-penalty-systems-update.md"
+    },
+    {
+        "endpoint": "endpoints_slots-initiate-purchase-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//slots/",
+        "summary": "Initiate Purchase | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_slots-initiate-purchase-create.md"
+    },
+    {
+        "endpoint": "endpoints_zoom",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Zoom | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_zoom.md"
+    },
+    {
+        "endpoint": "endpoints_crm-lead-sources-update",
+        "category": "crm",
+        "method": "PUT",
+        "url": "/api/v2//crm/lead_sources/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-lead-sources-update.md"
+    },
+    {
+        "endpoint": "endpoints_reports-attendances-grouped-data-get-data",
+        "category": "attendance",
+        "method": "GET",
+        "url": "/api/v2//reports/attendances",
+        "summary": "Grouped Data | TeamUp Developers",
+        "file": "teamup_api_clean/attendance/endpoints_reports-attendances-grouped-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_crm-lead-forms-update",
+        "category": "crm",
+        "method": "PUT",
+        "url": "/api/v2//crm/lead_forms/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-lead-forms-update.md"
+    },
+    {
+        "endpoint": "endpoints_content-views-report",
+        "category": "reports",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Content Views Report | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_content-views-report.md"
+    },
+    {
+        "endpoint": "endpoints_customer-fields-update",
+        "category": "customers",
+        "method": "PUT",
+        "url": "/api/v2//customer_fields/",
+        "summary": "Update a customer form | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-fields-update.md"
+    },
+    {
+        "endpoint": "errors",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Errors | TeamUp Developers",
+        "file": "teamup_api_clean/misc/errors.md"
+    },
+    {
+        "endpoint": "endpoints_customer-membership-holds-report",
+        "category": "customers",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Customer Membership Holds Report | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-membership-holds-report.md"
+    },
+    {
+        "endpoint": "endpoints_membership-penalty-systems-void-pending-create",
+        "category": "memberships",
+        "method": "POST",
+        "url": "/api/v2//membership_penalty_systems/",
+        "summary": "Void Pending Infractions | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-penalty-systems-void-pending-create.md"
+    },
+    {
+        "endpoint": "endpoints_checkins-settings-partial-update",
+        "category": "misc",
+        "method": "PATCH",
+        "url": "/api/v2//checkins/settings",
+        "summary": "checkins_settings_partial_update | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_checkins-settings-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_terminologies-partial-update",
+        "category": "misc",
+        "method": "PATCH",
+        "url": "/api/v2//terminologies/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_terminologies-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_fees-calculator-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//fees_calculator",
+        "summary": "Calculate Fees | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_fees-calculator-create.md"
+    },
+    {
+        "endpoint": "endpoints_offering-types",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Offering Types | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_offering-types.md"
+    },
+    {
+        "endpoint": "endpoints_integrations-wellhub-venue-mappings-destroy",
+        "category": "venues",
+        "method": "DELETE",
+        "url": "/api/v2//integrations/wellhub/venue_mappings/",
+        "summary": "Delete | TeamUp Developers",
+        "file": "teamup_api_clean/venues/endpoints_integrations-wellhub-venue-mappings-destroy.md"
+    },
+    {
+        "endpoint": "endpoints_customer-membership-holds",
+        "category": "customers",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Customer Membership Holds | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-membership-holds.md"
+    },
+    {
+        "endpoint": "endpoints_ai-business-advisor-reports-list",
+        "category": "reports",
+        "method": "GET",
+        "url": "/api/v2//ai/business_advisor_reports",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_ai-business-advisor-reports-list.md"
+    },
+    {
+        "endpoint": "endpoints_store-orders-report",
+        "category": "store",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Store Orders Report | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-orders-report.md"
+    },
+    {
+        "endpoint": "endpoints_instructor-pay-rates-partial-update",
+        "category": "misc",
+        "method": "PATCH",
+        "url": "/api/v2//instructor_pay_rates/",
+        "summary": "Partially Update Instructor Pay Rate | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_instructor-pay-rates-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_offering-type-categories-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//offering_type_categories",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_offering-type-categories-list.md"
+    },
+    {
+        "endpoint": "endpoints_reports-classes-grouped-export-export-data",
+        "category": "reports",
+        "method": "GET",
+        "url": "/api/v2//reports/classes",
+        "summary": "Grouped Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_reports-classes-grouped-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_events-list",
+        "category": "events",
+        "method": "GET",
+        "url": "/api/v2//events",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/events/endpoints_events-list.md"
+    },
+    {
+        "endpoint": "endpoints_policies-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//policies",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_policies-list.md"
+    },
+    {
+        "endpoint": "endpoints_staff",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Staff | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_staff.md"
+    },
+    {
+        "endpoint": "endpoints_store-product-variants-partial-update",
+        "category": "store",
+        "method": "PATCH",
+        "url": "/api/v2//store/product_variants/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-product-variants-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_instructors-blocked-times-partial-update",
+        "category": "misc",
+        "method": "PATCH",
+        "url": "/api/v2//instructors/",
+        "summary": "Blocked Times | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_instructors-blocked-times-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_checkouts-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//checkouts",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_checkouts-create.md"
+    },
+    {
+        "endpoint": "endpoints_waivers",
+        "category": "waivers",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Waivers | TeamUp Developers",
+        "file": "teamup_api_clean/waivers/endpoints_waivers.md"
+    },
+    {
+        "endpoint": "endpoints_push-notification-tokens-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//push_notification_tokens",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_push-notification-tokens-create.md"
+    },
+    {
+        "endpoint": "endpoints_joining-fees",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Joining Fees | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_joining-fees.md"
+    },
+    {
+        "endpoint": "endpoints_customer-forms-retrieve",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customer_forms/",
+        "summary": "Retrieve Customer Form | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-forms-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_images",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Images | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_images.md"
+    },
+    {
+        "endpoint": "endpoints_auth-two-factor-verify-create",
+        "category": "auth",
+        "method": "POST",
+        "url": "/api/v2//auth/two_factor/verify",
+        "summary": "Verify 2FA Code | TeamUp Developers",
+        "file": "teamup_api_clean/auth/endpoints_auth-two-factor-verify-create.md"
+    },
+    {
+        "endpoint": "endpoints_store-products-list",
+        "category": "store",
+        "method": "GET",
+        "url": "/api/v2//store/products",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-products-list.md"
+    },
+    {
+        "endpoint": "endpoints_customer-memberships-usage-retrieve",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customer_memberships/",
+        "summary": "Get Usage | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-memberships-usage-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_store-products-update",
+        "category": "store",
+        "method": "PUT",
+        "url": "/api/v2//store/products/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-products-update.md"
+    },
+    {
+        "endpoint": "endpoints_waivers-list",
+        "category": "waivers",
+        "method": "GET",
+        "url": "/api/v2//waivers",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/waivers/endpoints_waivers-list.md"
+    },
+    {
+        "endpoint": "endpoints_feature-flags-choice-update",
+        "category": "misc",
+        "method": "PUT",
+        "url": "/api/v2//feature_flags/",
+        "summary": "Update Choice | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_feature-flags-choice-update.md"
+    },
+    {
+        "endpoint": "endpoints_auth",
+        "category": "auth",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Auth | TeamUp Developers",
+        "file": "teamup_api_clean/auth/endpoints_auth.md"
+    },
+    {
+        "endpoint": "endpoints_purchase-fees-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//purchase_fees/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_purchase-fees-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_availability-schedules-offering-types-destroy",
+        "category": "misc",
+        "method": "DELETE",
+        "url": "/api/v2//availability_schedules/",
+        "summary": "Delete Availability Schedule Offering Type | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_availability-schedules-offering-types-destroy.md"
+    },
+    {
+        "endpoint": "endpoints_customers-notification-preferences-retrieve",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customers/",
+        "summary": "Notification Preferences | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customers-notification-preferences-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_availability-schedules-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//availability_schedules/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_availability-schedules-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_checkouts-items-price-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//checkouts/",
+        "summary": "Update Item Price | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_checkouts-items-price-create.md"
+    },
+    {
+        "endpoint": "endpoints_customer-fields",
+        "category": "customers",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Customer Fields | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-fields.md"
+    },
+    {
+        "endpoint": "endpoints_crm-workflow-actions-retrieve",
+        "category": "crm",
+        "method": "GET",
+        "url": "/api/v2//crm/workflow_actions/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-workflow-actions-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_communication-broadcast-messages-partial-update",
+        "category": "misc",
+        "method": "PATCH",
+        "url": "/api/v2//communication/broadcast_messages/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_communication-broadcast-messages-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_slots-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//slots",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_slots-list.md"
+    },
+    {
+        "endpoint": "endpoints_availability-schedules-overrides-partial-update",
+        "category": "misc",
+        "method": "PATCH",
+        "url": "/api/v2//availability_schedules/",
+        "summary": "Update Overrides | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_availability-schedules-overrides-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_reports-sms-messages-export-export-data",
+        "category": "reports",
+        "method": "GET",
+        "url": "/api/v2//reports/sms_messages/export",
+        "summary": "Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_reports-sms-messages-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_customers",
+        "category": "customers",
+        "method": "GET",
+        "url": "/unknown-endpoint",
+        "summary": "Customers | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customers.md"
+    },
+    {
+        "endpoint": "endpoints_instructors-pay-rate-coverage-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//instructors/",
+        "summary": "Get Pay Rate Coverage | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_instructors-pay-rate-coverage-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_store-settings-partial-update",
+        "category": "store",
+        "method": "PATCH",
+        "url": "/api/v2//store/settings",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-settings-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_store-product-variants-destroy",
+        "category": "store",
+        "method": "DELETE",
+        "url": "/api/v2//store/product_variants/",
+        "summary": "Delete | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-product-variants-destroy.md"
+    },
+    {
+        "endpoint": "endpoints_customers-notification-preferences-partial-update",
+        "category": "customers",
+        "method": "PATCH",
+        "url": "/api/v2//customers/",
+        "summary": "Update Notification Preference | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customers-notification-preferences-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_reports-store-orders-export-export-data",
+        "category": "store",
+        "method": "GET",
+        "url": "/api/v2//reports/store_orders/export",
+        "summary": "Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_reports-store-orders-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_integrations-zoom-users-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//integrations/zoom/users",
+        "summary": "List Zoom users | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_integrations-zoom-users-list.md"
+    },
+    {
+        "endpoint": "endpoints_gift-cards-redeem-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//gift_cards/",
+        "summary": "Redeem Gift Card | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_gift-cards-redeem-create.md"
+    },
+    {
+        "endpoint": "endpoints_orders",
+        "category": "store",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Orders | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_orders.md"
+    },
+    {
+        "endpoint": "endpoints_reports-customer-referrals-data-get-data",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//reports/customer_referrals/data",
+        "summary": "Data | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_reports-customer-referrals-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_customers-update",
+        "category": "customers",
+        "method": "PUT",
+        "url": "/api/v2//customers/",
+        "summary": "Update a customer | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customers-update.md"
+    },
+    {
+        "endpoint": "endpoints_customers-account-status-retrieve",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customers/",
+        "summary": "Account Status | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customers-account-status-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_providers",
+        "category": "providers",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Providers | TeamUp Developers",
+        "file": "teamup_api_clean/providers/endpoints_providers.md"
+    },
+    {
+        "endpoint": "endpoints_customer-field-values-create",
+        "category": "customers",
+        "method": "POST",
+        "url": "/api/v2//customer_field_values",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-field-values-create.md"
+    },
+    {
+        "endpoint": "authentication",
+        "category": "auth",
+        "method": "GET",
+        "url": "/unknown-endpoint",
+        "summary": "Authentication | TeamUp Developers",
+        "file": "teamup_api_clean/auth/authentication.md"
+    },
+    {
+        "endpoint": "endpoints_content-filters-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//content_filters",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_content-filters-list.md"
+    },
+    {
+        "endpoint": "endpoints_reports-customer-memberships-data-get-data",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//reports/customer_memberships/data",
+        "summary": "Data | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_reports-customer-memberships-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_two-factor-auth",
+        "category": "auth",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Two Factor Auth | TeamUp Developers",
+        "file": "teamup_api_clean/auth/endpoints_two-factor-auth.md"
+    },
+    {
+        "endpoint": "endpoints_crm-workflows-create",
+        "category": "crm",
+        "method": "POST",
+        "url": "/api/v2//crm/workflows",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-workflows-create.md"
+    },
+    {
+        "endpoint": "endpoints_instructors-blocked-times-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//instructors/",
+        "summary": "Blocked Times | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_instructors-blocked-times-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_invoices-list",
+        "category": "invoices",
+        "method": "GET",
+        "url": "/api/v2//invoices",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/invoices/endpoints_invoices-list.md"
+    },
+    {
+        "endpoint": "endpoints_availability-schedule-offering-types-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//availability_schedule_offering_types",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_availability-schedule-offering-types-list.md"
+    },
+    {
+        "endpoint": "endpoints_external-calendars-staff-calendar-settings-update",
+        "category": "external-calendars",
+        "method": "PUT",
+        "url": "/api/v2//external_calendars/staff_calendar_settings/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/external-calendars/endpoints_external-calendars-staff-calendar-settings-update.md"
+    },
+    {
+        "endpoint": "endpoints_reports-customer-referrals-grouped-export-export-data",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//reports/customer_referrals",
+        "summary": "Grouped Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_reports-customer-referrals-grouped-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_crm-lead-sources-list",
+        "category": "crm",
+        "method": "GET",
+        "url": "/api/v2//crm/lead_sources",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-lead-sources-list.md"
+    },
+    {
+        "endpoint": "endpoints_instructor-pay-rates-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//instructor_pay_rates",
+        "summary": "List Instructor Pay Rates | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_instructor-pay-rates-list.md"
+    },
+    {
+        "endpoint": "endpoints_reports-customer-membership-holds-export-export-data",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//reports/customer_membership_holds/export",
+        "summary": "Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_reports-customer-membership-holds-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_discount-code-groups",
+        "category": "discount-codes",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Discount Code Groups | TeamUp Developers",
+        "file": "teamup_api_clean/discount-codes/endpoints_discount-code-groups.md"
+    },
+    {
+        "endpoint": "endpoints_auth-profiles-list",
+        "category": "auth",
+        "method": "GET",
+        "url": "/api/v2//auth/profiles",
+        "summary": "Profiles | TeamUp Developers",
+        "file": "teamup_api_clean/auth/endpoints_auth-profiles-list.md"
+    },
+    {
+        "endpoint": "endpoints_checkouts-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//checkouts",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_checkouts-list.md"
+    },
+    {
+        "endpoint": "endpoints_customers-sms-account-verify-create",
+        "category": "customers",
+        "method": "POST",
+        "url": "/api/v2//customers/",
+        "summary": "Verify SMS Account | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customers-sms-account-verify-create.md"
+    },
+    {
+        "endpoint": "endpoints_customers-partial-update",
+        "category": "customers",
+        "method": "PATCH",
+        "url": "/api/v2//customers/",
+        "summary": "Partially update a customer | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customers-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_store-product-attributes-create",
+        "category": "store",
+        "method": "POST",
+        "url": "/api/v2//store/product_attributes",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-product-attributes-create.md"
+    },
+    {
+        "endpoint": "endpoints_memberships-initiate-purchase-create",
+        "category": "memberships",
+        "method": "POST",
+        "url": "/api/v2//memberships/",
+        "summary": "Initiate Purchase | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_memberships-initiate-purchase-create.md"
+    },
+    {
+        "endpoint": "endpoints_customer-form-submissions-create",
+        "category": "customers",
+        "method": "POST",
+        "url": "/api/v2//customer_form_submissions",
+        "summary": "Create a Customer Form Submission | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-form-submissions-create.md"
+    },
+    {
+        "endpoint": "endpoints_course-sessions-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//course_sessions",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_course-sessions-list.md"
+    },
+    {
+        "endpoint": "endpoints_instructor-pay-rates-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//instructor_pay_rates",
+        "summary": "Create Instructor Pay Rate | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_instructor-pay-rates-create.md"
+    },
+    {
+        "endpoint": "endpoints_reports-customer-membership-holds-grouped-data-get-data",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//reports/customer_membership_holds",
+        "summary": "Grouped Data | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_reports-customer-membership-holds-grouped-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_joining-fees-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//joining_fees",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_joining-fees-list.md"
+    },
+    {
+        "endpoint": "endpoints_reports-content-views-grouped-data-get-data",
+        "category": "reports",
+        "method": "GET",
+        "url": "/api/v2//reports/content_views",
+        "summary": "Grouped Data | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_reports-content-views-grouped-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_reports-invoice-line-items-data-get-data",
+        "category": "invoices",
+        "method": "GET",
+        "url": "/api/v2//reports/invoice_line_items/data",
+        "summary": "Data | TeamUp Developers",
+        "file": "teamup_api_clean/invoices/endpoints_reports-invoice-line-items-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_store-settings",
+        "category": "store",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Store Settings | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-settings.md"
+    },
+    {
+        "endpoint": "endpoints_discount-code-groups-list",
+        "category": "discount-codes",
+        "method": "GET",
+        "url": "/api/v2//discount_code_groups",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/discount-codes/endpoints_discount-code-groups-list.md"
+    },
+    {
+        "endpoint": "endpoints_store-order-items-destroy",
+        "category": "store",
+        "method": "DELETE",
+        "url": "/api/v2//store/order_items/",
+        "summary": "Delete | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-order-items-destroy.md"
+    },
+    {
+        "endpoint": "endpoints_instructed-sessions-report",
+        "category": "reports",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Instructed Sessions Report | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_instructed-sessions-report.md"
+    },
+    {
+        "endpoint": "endpoints_checkins-settings-update",
+        "category": "misc",
+        "method": "PUT",
+        "url": "/api/v2//checkins/settings",
+        "summary": "checkins_settings_update | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_checkins-settings-update.md"
+    },
+    {
+        "endpoint": "endpoints_discount-codes-activate-all-create",
+        "category": "discount-codes",
+        "method": "POST",
+        "url": "/api/v2//discount_codes/activate_all",
+        "summary": "Activate All Discount Codes | TeamUp Developers",
+        "file": "teamup_api_clean/discount-codes/endpoints_discount-codes-activate-all-create.md"
+    },
+    {
+        "endpoint": "endpoints_integrations-learn-to-skate-config-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//integrations/learn_to_skate/config",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_integrations-learn-to-skate-config-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_discount-codes-update",
+        "category": "discount-codes",
+        "method": "PUT",
+        "url": "/api/v2//discount_codes/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/discount-codes/endpoints_discount-codes-update.md"
+    },
+    {
+        "endpoint": "endpoints_integrations-learn-to-skate-config-partial-update",
+        "category": "misc",
+        "method": "PATCH",
+        "url": "/api/v2//integrations/learn_to_skate/config",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_integrations-learn-to-skate-config-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_customer-memberships-bulk-edit-holds-update",
+        "category": "customers",
+        "method": "PUT",
+        "url": "/api/v2//customer_memberships/bulk_edit_holds",
+        "summary": "Bulk Edit Holds | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-memberships-bulk-edit-holds-update.md"
+    },
+    {
+        "endpoint": "endpoints_membership-registration-grants-create",
+        "category": "memberships",
+        "method": "POST",
+        "url": "/api/v2//membership_registration_grants",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-registration-grants-create.md"
+    },
+    {
+        "endpoint": "pagination",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/api/v2/events",
+        "summary": "Pagination | TeamUp Developers",
+        "file": "teamup_api_clean/misc/pagination.md"
+    },
+    {
+        "endpoint": "endpoints_calendar-source-accounts",
+        "category": "external-calendars",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Calendar Source Accounts | TeamUp Developers",
+        "file": "teamup_api_clean/external-calendars/endpoints_calendar-source-accounts.md"
+    },
+    {
+        "endpoint": "endpoints_business-closures-bulk-close-create",
+        "category": "bulk-actions",
+        "method": "POST",
+        "url": "/api/v2//business_closures/bulk_close",
+        "summary": "Bulk Close | TeamUp Developers",
+        "file": "teamup_api_clean/bulk-actions/endpoints_business-closures-bulk-close-create.md"
+    },
+    {
+        "endpoint": "endpoints_course-session-attendances-retrieve",
+        "category": "attendance",
+        "method": "GET",
+        "url": "/api/v2//course_session_attendances/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/attendance/endpoints_course-session-attendances-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_communication-notification-types-membership-penalty-messages-retrieve",
+        "category": "memberships",
+        "method": "GET",
+        "url": "/api/v2//communication/notification_types/membership_penalty/messages/",
+        "summary": "Retrieve Message | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_communication-notification-types-membership-penalty-messages-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_integrations-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//integrations/",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_integrations-list.md"
+    },
+    {
+        "endpoint": "endpoints_customer-memberships-list",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customer_memberships",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-memberships-list.md"
+    },
+    {
+        "endpoint": "endpoints_crm-workflow-actions-update",
+        "category": "crm",
+        "method": "PUT",
+        "url": "/api/v2//crm/workflow_actions/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-workflow-actions-update.md"
+    },
+    {
+        "endpoint": "endpoints_providers-theme-retrieve",
+        "category": "providers",
+        "method": "GET",
+        "url": "/api/v2//providers/",
+        "summary": "Theme | TeamUp Developers",
+        "file": "teamup_api_clean/providers/endpoints_providers-theme-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_discount-codes-retrieve",
+        "category": "discount-codes",
+        "method": "GET",
+        "url": "/api/v2//discount_codes/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/discount-codes/endpoints_discount-codes-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_customers-retrieve",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customers/",
+        "summary": "Retrieve a customer | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customers-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_integrations-kisi-groups-update",
+        "category": "misc",
+        "method": "PUT",
+        "url": "/api/v2//integrations/kisi/groups/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_integrations-kisi-groups-update.md"
+    },
+    {
+        "endpoint": "endpoints_terminologies-update",
+        "category": "misc",
+        "method": "PUT",
+        "url": "/api/v2//terminologies/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_terminologies-update.md"
+    },
+    {
+        "endpoint": "endpoints_courses-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//courses/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_courses-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_invoices-retrieve",
+        "category": "invoices",
+        "method": "GET",
+        "url": "/api/v2//invoices/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/invoices/endpoints_invoices-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_venues",
+        "category": "venues",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Venues | TeamUp Developers",
+        "file": "teamup_api_clean/venues/endpoints_venues.md"
+    },
+    {
+        "endpoint": "endpoints_customers-sms-account-retrieve",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customers/",
+        "summary": "Sms Account | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customers-sms-account-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_checkins",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Checkins | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_checkins.md"
+    },
+    {
+        "endpoint": "endpoints_venue-rooms-create",
+        "category": "venues",
+        "method": "POST",
+        "url": "/api/v2//venue_rooms",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/venues/endpoints_venue-rooms-create.md"
+    },
+    {
+        "endpoint": "endpoints_crm-lead-forms-destroy",
+        "category": "crm",
+        "method": "DELETE",
+        "url": "/api/v2//crm/lead_forms/",
+        "summary": "Delete | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-lead-forms-destroy.md"
+    },
+    {
+        "endpoint": "endpoints_product-variants",
+        "category": "store",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Product Variants | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_product-variants.md"
+    },
+    {
+        "endpoint": "endpoints_attendances-retrieve",
+        "category": "attendance",
+        "method": "GET",
+        "url": "/api/v2//attendances/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/attendance/endpoints_attendances-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_instructors",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Instructors | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_instructors.md"
+    },
+    {
+        "endpoint": "endpoints_reports-customer-referrals-grouped-data-get-data",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//reports/customer_referrals",
+        "summary": "Grouped Data | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_reports-customer-referrals-grouped-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_push-notification-tokens-destroy",
+        "category": "misc",
+        "method": "DELETE",
+        "url": "/api/v2//push_notification_tokens/",
+        "summary": "Delete | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_push-notification-tokens-destroy.md"
+    },
+    {
+        "endpoint": "endpoints_store-order-items-report",
+        "category": "store",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Store Order Items Report | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-order-items-report.md"
+    },
+    {
+        "endpoint": "endpoints_reports-customers-data-get-data",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//reports/customers/data",
+        "summary": "Data | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_reports-customers-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_discount-codes-partial-update",
+        "category": "discount-codes",
+        "method": "PATCH",
+        "url": "/api/v2//discount_codes/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/discount-codes/endpoints_discount-codes-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_customer-fields-destroy",
+        "category": "customers",
+        "method": "DELETE",
+        "url": "/api/v2//customer_fields/",
+        "summary": "Delete a customer form | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-fields-destroy.md"
+    },
+    {
+        "endpoint": "endpoints_membership-penalty-systems",
+        "category": "memberships",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Membership Penalty Systems | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-penalty-systems.md"
+    },
+    {
+        "endpoint": "endpoints_gift-cards-report",
+        "category": "reports",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Gift Cards Report | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_gift-cards-report.md"
+    },
+    {
+        "endpoint": "endpoints_integrations-kisi-groups-partial-update",
+        "category": "misc",
+        "method": "PATCH",
+        "url": "/api/v2//integrations/kisi/groups/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_integrations-kisi-groups-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_waiver-agreements-retrieve",
+        "category": "waivers",
+        "method": "GET",
+        "url": "/api/v2//waiver_agreements/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/waivers/endpoints_waiver-agreements-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_membership-penalty-systems-partial-update",
+        "category": "memberships",
+        "method": "PATCH",
+        "url": "/api/v2//membership_penalty_systems/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-penalty-systems-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_memberships-retrieve",
+        "category": "memberships",
+        "method": "GET",
+        "url": "/api/v2//memberships/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_memberships-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_crm-workflow-action-types-retrieve",
+        "category": "crm",
+        "method": "GET",
+        "url": "/api/v2//crm/workflow_action_types/",
+        "summary": "crm_workflow_action_types_retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-workflow-action-types-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_venues-list",
+        "category": "venues",
+        "method": "GET",
+        "url": "/api/v2//venues",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/venues/endpoints_venues-list.md"
+    },
+    {
+        "endpoint": "endpoints_applications-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//applications/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_applications-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_integrations-wellhub-venue-mappings-create",
+        "category": "venues",
+        "method": "POST",
+        "url": "/api/v2//integrations/wellhub/venue_mappings",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/venues/endpoints_integrations-wellhub-venue-mappings-create.md"
+    },
+    {
+        "endpoint": "endpoints_store-order-items-update",
+        "category": "store",
+        "method": "PUT",
+        "url": "/api/v2//store/order_items/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-order-items-update.md"
+    },
+    {
+        "endpoint": "endpoints_payment-processors-list",
+        "category": "payments",
+        "method": "GET",
+        "url": "/api/v2//payment_processors",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/payments/endpoints_payment-processors-list.md"
+    },
+    {
+        "endpoint": "endpoints_customer-issues-list",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customer_issues",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-issues-list.md"
+    },
+    {
+        "endpoint": "endpoints_customers-participation-update",
+        "category": "customers",
+        "method": "PUT",
+        "url": "/api/v2//customers/",
+        "summary": "Participation | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customers-participation-update.md"
+    },
+    {
+        "endpoint": "endpoints_external-calendars-accounts-calendars-retrieve",
+        "category": "external-calendars",
+        "method": "GET",
+        "url": "/api/v2//external_calendars/accounts/",
+        "summary": "List all calendars. | TeamUp Developers",
+        "file": "teamup_api_clean/external-calendars/endpoints_external-calendars-accounts-calendars-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_applications-partial-update",
+        "category": "misc",
+        "method": "PATCH",
+        "url": "/api/v2//applications/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_applications-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_membership-categories-create",
+        "category": "memberships",
+        "method": "POST",
+        "url": "/api/v2//membership_categories",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-categories-create.md"
+    },
+    {
+        "endpoint": "endpoints_availability-schedule-offering-types",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Availability Schedule Offering Types | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_availability-schedule-offering-types.md"
+    },
+    {
+        "endpoint": "endpoints_reports-instructors-data-get-data",
+        "category": "reports",
+        "method": "GET",
+        "url": "/api/v2//reports/instructors/data",
+        "summary": "Data | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_reports-instructors-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_customer-membership-holds-list",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customer_membership_holds",
+        "summary": "List all membership holds | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-membership-holds-list.md"
+    },
+    {
+        "endpoint": "endpoints_offering-types-update",
+        "category": "misc",
+        "method": "PUT",
+        "url": "/api/v2//offering_types/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_offering-types-update.md"
+    },
+    {
+        "endpoint": "endpoints_reports-content-views-grouped-export-export-data",
+        "category": "reports",
+        "method": "GET",
+        "url": "/api/v2//reports/content_views",
+        "summary": "Grouped Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_reports-content-views-grouped-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_memberships-share-with-families-create",
+        "category": "memberships",
+        "method": "POST",
+        "url": "/api/v2//memberships/",
+        "summary": "Share membership with families | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_memberships-share-with-families-create.md"
+    },
+    {
+        "endpoint": "endpoints_providers-register-customer-create",
+        "category": "customers",
+        "method": "POST",
+        "url": "/api/v2//providers/",
+        "summary": "Register Customer | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_providers-register-customer-create.md"
+    },
+    {
+        "endpoint": "endpoints_venues-blocked-times-partial-update",
+        "category": "venues",
+        "method": "PATCH",
+        "url": "/api/v2//venues/",
+        "summary": "Blocked Times | TeamUp Developers",
+        "file": "teamup_api_clean/venues/endpoints_venues-blocked-times-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_policy-agreements",
+        "category": "policies",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Policy Agreements | TeamUp Developers",
+        "file": "teamup_api_clean/policies/endpoints_policy-agreements.md"
+    },
+    {
+        "endpoint": "endpoints_reports-attendance-strikes-grouped-data-get-data",
+        "category": "attendance",
+        "method": "GET",
+        "url": "/api/v2//reports/attendance_strikes",
+        "summary": "Grouped Data | TeamUp Developers",
+        "file": "teamup_api_clean/attendance/endpoints_reports-attendance-strikes-grouped-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_customer-membership-holds-payment-resolution-retrieve",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customer_membership_holds/",
+        "summary": "Get payment resolution for a membership hold | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-membership-holds-payment-resolution-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_reports-attendance-strikes-grouped-export-export-data",
+        "category": "attendance",
+        "method": "GET",
+        "url": "/api/v2//reports/attendance_strikes",
+        "summary": "Grouped Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/attendance/endpoints_reports-attendance-strikes-grouped-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_images-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//images/",
+        "summary": "Retrieve an image | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_images-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_store-orders-checkout-create",
+        "category": "store",
+        "method": "POST",
+        "url": "/api/v2//store/orders/checkout",
+        "summary": "Checkout | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-orders-checkout-create.md"
+    },
+    {
+        "endpoint": "endpoints_availability-schedules-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//availability_schedules",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_availability-schedules-create.md"
+    },
+    {
+        "endpoint": "endpoints_course-session-attendances",
+        "category": "attendance",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Course Session Attendances | TeamUp Developers",
+        "file": "teamup_api_clean/attendance/endpoints_course-session-attendances.md"
+    },
+    {
+        "endpoint": "endpoints_communication-broadcast-messages-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//communication/broadcast_messages/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_communication-broadcast-messages-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_applications-update",
+        "category": "misc",
+        "method": "PUT",
+        "url": "/api/v2//applications/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_applications-update.md"
+    },
+    {
+        "endpoint": "endpoints_reports-invoice-line-items-grouped-data-get-data",
+        "category": "invoices",
+        "method": "GET",
+        "url": "/api/v2//reports/invoice_line_items",
+        "summary": "Grouped Data | TeamUp Developers",
+        "file": "teamup_api_clean/invoices/endpoints_reports-invoice-line-items-grouped-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_content-add-favorite-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//content/",
+        "summary": "Add Favorite | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_content-add-favorite-create.md"
+    },
+    {
+        "endpoint": "endpoints_store-inventory-adjustments-list",
+        "category": "store",
+        "method": "GET",
+        "url": "/api/v2//store/inventory_adjustments",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-inventory-adjustments-list.md"
+    },
+    {
+        "endpoint": "endpoints_venues-partial-update",
+        "category": "venues",
+        "method": "PATCH",
+        "url": "/api/v2//venues/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/venues/endpoints_venues-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_reports-course-session-attendances-grouped-export-export-data",
+        "category": "attendance",
+        "method": "GET",
+        "url": "/api/v2//reports/course_session_attendances",
+        "summary": "Grouped Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/attendance/endpoints_reports-course-session-attendances-grouped-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_checkouts-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//checkouts/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_checkouts-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_crm-lead-forms-list",
+        "category": "crm",
+        "method": "GET",
+        "url": "/api/v2//crm/lead_forms",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-lead-forms-list.md"
+    },
+    {
+        "endpoint": "endpoints_store-orders-list",
+        "category": "store",
+        "method": "GET",
+        "url": "/api/v2//store/orders",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-orders-list.md"
+    },
+    {
+        "endpoint": "endpoints_offering-types-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//offering_types",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_offering-types-list.md"
+    },
+    {
+        "endpoint": "endpoints_reports-customer-referrals-export-export-data",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//reports/customer_referrals/export",
+        "summary": "Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_reports-customer-referrals-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_availability-schedule-offering-types-bulk-update-create",
+        "category": "bulk-actions",
+        "method": "POST",
+        "url": "/api/v2//availability_schedule_offering_types/bulk_update",
+        "summary": "Bulk Update | TeamUp Developers",
+        "file": "teamup_api_clean/bulk-actions/endpoints_availability-schedule-offering-types-bulk-update-create.md"
+    },
+    {
+        "endpoint": "endpoints_checkouts-add-item-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//checkouts/",
+        "summary": "Add Item | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_checkouts-add-item-create.md"
+    },
+    {
+        "endpoint": "endpoints_store-product-variants-retrieve",
+        "category": "store",
+        "method": "GET",
+        "url": "/api/v2//store/product_variants/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-product-variants-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_membership-terms",
+        "category": "memberships",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Membership Terms | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-terms.md"
+    },
+    {
+        "endpoint": "endpoints_waiver-agreements-list",
+        "category": "waivers",
+        "method": "GET",
+        "url": "/api/v2//waiver_agreements",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/waivers/endpoints_waiver-agreements-list.md"
+    },
+    {
+        "endpoint": "endpoints_course-session-attendances-report",
+        "category": "attendance",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Course Session Attendances Report | TeamUp Developers",
+        "file": "teamup_api_clean/attendance/endpoints_course-session-attendances-report.md"
+    },
+    {
+        "endpoint": "endpoints_integrations-learn-to-skate-config-update",
+        "category": "misc",
+        "method": "PUT",
+        "url": "/api/v2//integrations/learn_to_skate/config",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_integrations-learn-to-skate-config-update.md"
+    },
+    {
+        "endpoint": "endpoints_communication-broadcast-messages-update",
+        "category": "misc",
+        "method": "PUT",
+        "url": "/api/v2//communication/broadcast_messages/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_communication-broadcast-messages-update.md"
+    },
+    {
+        "endpoint": "endpoints_reports-classes-data-get-data",
+        "category": "reports",
+        "method": "GET",
+        "url": "/api/v2//reports/classes/data",
+        "summary": "Data | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_reports-classes-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_kisi-config",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Kisi Config | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_kisi-config.md"
+    },
+    {
+        "endpoint": "endpoints_customer-forms-ordering-partial-update",
+        "category": "customers",
+        "method": "PATCH",
+        "url": "/api/v2//customer_forms/ordering",
+        "summary": "Change Customer Form Order | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-forms-ordering-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_waiver-agreements",
+        "category": "waivers",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Waiver Agreements | TeamUp Developers",
+        "file": "teamup_api_clean/waivers/endpoints_waiver-agreements.md"
+    },
+    {
+        "endpoint": "endpoints_waiver-agreements-download-retrieve",
+        "category": "waivers",
+        "method": "GET",
+        "url": "/api/v2//waiver_agreements/",
+        "summary": "Download PDF | TeamUp Developers",
+        "file": "teamup_api_clean/waivers/endpoints_waiver-agreements-download-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_auth-application-retrieve",
+        "category": "auth",
+        "method": "GET",
+        "url": "/api/v2//auth/application",
+        "summary": "Authenticated Application | TeamUp Developers",
+        "file": "teamup_api_clean/auth/endpoints_auth-application-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_business-closures",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Business Closures | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_business-closures.md"
+    },
+    {
+        "endpoint": "endpoints_customers-report",
+        "category": "customers",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Customers Report | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customers-report.md"
+    },
+    {
+        "endpoint": "endpoints_integrations-learn-to-skate-membership-renew-url-retrieve",
+        "category": "memberships",
+        "method": "GET",
+        "url": "/api/v2//integrations/learn_to_skate/membership_renew_url/",
+        "summary": "Get membership renewal URL | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_integrations-learn-to-skate-membership-renew-url-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_reports-attendances-export-export-data",
+        "category": "attendance",
+        "method": "GET",
+        "url": "/api/v2//reports/attendances/export",
+        "summary": "Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/attendance/endpoints_reports-attendances-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_discount-code-applicabilities-create",
+        "category": "discount-codes",
+        "method": "POST",
+        "url": "/api/v2//discount_code_applicabilities",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/discount-codes/endpoints_discount-code-applicabilities-create.md"
+    },
+    {
+        "endpoint": "endpoints_membership-payment-plans-update",
+        "category": "memberships",
+        "method": "PUT",
+        "url": "/api/v2//membership_payment_plans/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-payment-plans-update.md"
+    },
+    {
+        "endpoint": "endpoints_applications-destroy",
+        "category": "misc",
+        "method": "DELETE",
+        "url": "/api/v2//applications/",
+        "summary": "Delete | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_applications-destroy.md"
+    },
+    {
+        "endpoint": "endpoints_bulk-actions-retrieve",
+        "category": "bulk-actions",
+        "method": "GET",
+        "url": "/api/v2//bulk_actions/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/bulk-actions/endpoints_bulk-actions-retrieve.md"
+    },
+    {
+        "endpoint": "field-inclusion",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2/customers/123",
+        "summary": "Field Inclusion | TeamUp Developers",
+        "file": "teamup_api_clean/misc/field-inclusion.md"
+    },
+    {
+        "endpoint": "endpoints_reports-content-views-data-get-data",
+        "category": "reports",
+        "method": "GET",
+        "url": "/api/v2//reports/content_views/data",
+        "summary": "Data | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_reports-content-views-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_gift-cards-config-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//gift_cards/config",
+        "summary": "Gift Card Config | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_gift-cards-config-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_reports-customers-grouped-export-export-data",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//reports/customers",
+        "summary": "Grouped Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_reports-customers-grouped-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_venues-retrieve",
+        "category": "venues",
+        "method": "GET",
+        "url": "/api/v2//venues/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/venues/endpoints_venues-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_communication-notification-types-membership-penalty-messages-update",
+        "category": "memberships",
+        "method": "PUT",
+        "url": "/api/v2//communication/notification_types/membership_penalty/messages/",
+        "summary": "Update Message | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_communication-notification-types-membership-penalty-messages-update.md"
+    },
+    {
+        "endpoint": "endpoints_learn-to-skate",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Learn To Skate | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_learn-to-skate.md"
+    },
+    {
+        "endpoint": "endpoints_memberships-allotment-update",
+        "category": "memberships",
+        "method": "PUT",
+        "url": "/api/v2//memberships/",
+        "summary": "Update Allotment | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_memberships-allotment-update.md"
+    },
+    {
+        "endpoint": "endpoints_attendances",
+        "category": "attendance",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Attendances | TeamUp Developers",
+        "file": "teamup_api_clean/attendance/endpoints_attendances.md"
+    },
+    {
+        "endpoint": "endpoints_feature-flags-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//feature_flags/",
+        "summary": "Retrieve Feature Flag | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_feature-flags-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_reports-attendances-grouped-export-export-data",
+        "category": "attendance",
+        "method": "GET",
+        "url": "/api/v2//reports/attendances",
+        "summary": "Grouped Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/attendance/endpoints_reports-attendances-grouped-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_membership-terms-update",
+        "category": "memberships",
+        "method": "PUT",
+        "url": "/api/v2//membership_terms/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-terms-update.md"
+    },
+    {
+        "endpoint": "endpoints_integrations-kisi-config-update",
+        "category": "misc",
+        "method": "PUT",
+        "url": "/api/v2//integrations/kisi/config",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_integrations-kisi-config-update.md"
+    },
+    {
+        "endpoint": "endpoints_jobs-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//jobs/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_jobs-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_store-product-variants-create",
+        "category": "store",
+        "method": "POST",
+        "url": "/api/v2//store/product_variants",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-product-variants-create.md"
+    },
+    {
+        "endpoint": "endpoints_auth-refresh-access-token-create",
+        "category": "auth",
+        "method": "POST",
+        "url": "/api/v2//auth/refresh_access_token",
+        "summary": "Refresh Access Token | TeamUp Developers",
+        "file": "teamup_api_clean/auth/endpoints_auth-refresh-access-token-create.md"
+    },
+    {
+        "endpoint": "endpoints_crm-workflow-actions-partial-update",
+        "category": "crm",
+        "method": "PATCH",
+        "url": "/api/v2//crm/workflow_actions/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-workflow-actions-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_crm-workflow-actions-list",
+        "category": "crm",
+        "method": "GET",
+        "url": "/api/v2//crm/workflow_actions",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-workflow-actions-list.md"
+    },
+    {
+        "endpoint": "endpoints_customer-memberships-unshare-create",
+        "category": "customers",
+        "method": "POST",
+        "url": "/api/v2//customer_memberships/",
+        "summary": "Unshare | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-memberships-unshare-create.md"
+    },
+    {
+        "endpoint": "endpoints_reports-instructed-sessions-data-get-data",
+        "category": "reports",
+        "method": "GET",
+        "url": "/api/v2//reports/instructed_sessions/data",
+        "summary": "Data | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_reports-instructed-sessions-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_reports-course-session-attendances-grouped-data-get-data",
+        "category": "attendance",
+        "method": "GET",
+        "url": "/api/v2//reports/course_session_attendances",
+        "summary": "Grouped Data | TeamUp Developers",
+        "file": "teamup_api_clean/attendance/endpoints_reports-course-session-attendances-grouped-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_customer-credits-report",
+        "category": "customers",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Customer Credits Report | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-credits-report.md"
+    },
+    {
+        "endpoint": "endpoints_venues-update",
+        "category": "venues",
+        "method": "PUT",
+        "url": "/api/v2//venues/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/venues/endpoints_venues-update.md"
+    },
+    {
+        "endpoint": "endpoints_course-sessions",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Course Sessions | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_course-sessions.md"
+    },
+    {
+        "endpoint": "endpoints_classes-report",
+        "category": "reports",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Classes Report | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_classes-report.md"
+    },
+    {
+        "endpoint": "endpoints_crm-workflows-partial-update",
+        "category": "crm",
+        "method": "PATCH",
+        "url": "/api/v2//crm/workflows/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-workflows-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_purchase-fees",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Purchase Fees | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_purchase-fees.md"
+    },
+    {
+        "endpoint": "endpoints_providers-account-status-retrieve",
+        "category": "providers",
+        "method": "GET",
+        "url": "/api/v2//providers/",
+        "summary": "Account Status | TeamUp Developers",
+        "file": "teamup_api_clean/providers/endpoints_providers-account-status-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_checkouts-destroy",
+        "category": "misc",
+        "method": "DELETE",
+        "url": "/api/v2//checkouts/",
+        "summary": "Delete | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_checkouts-destroy.md"
+    },
+    {
+        "endpoint": "endpoints_reports-instructors-export-export-data",
+        "category": "reports",
+        "method": "GET",
+        "url": "/api/v2//reports/instructors/export",
+        "summary": "Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_reports-instructors-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_reports-instructed-sessions-export-export-data",
+        "category": "reports",
+        "method": "GET",
+        "url": "/api/v2//reports/instructed_sessions/export",
+        "summary": "Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_reports-instructed-sessions-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_reports-customer-credits-export-export-data",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//reports/customer_credits/export",
+        "summary": "Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_reports-customer-credits-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_customer-form-submissions-retrieve",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customer_form_submissions/",
+        "summary": "Retrieve a Customer Form Submission | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-form-submissions-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_customer-forms",
+        "category": "customers",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Customer Forms | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-forms.md"
+    },
+    {
+        "endpoint": "endpoints_membership-penalty-systems-list",
+        "category": "memberships",
+        "method": "GET",
+        "url": "/api/v2//membership_penalty_systems",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-penalty-systems-list.md"
+    },
+    {
+        "endpoint": "endpoints_venue-rooms-partial-update",
+        "category": "venues",
+        "method": "PATCH",
+        "url": "/api/v2//venue_rooms/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/venues/endpoints_venue-rooms-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_calendar-events",
+        "category": "events",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Calendar Events | TeamUp Developers",
+        "file": "teamup_api_clean/events/endpoints_calendar-events.md"
+    },
+    {
+        "endpoint": "endpoints_reports-sms-messages-data-get-data",
+        "category": "reports",
+        "method": "GET",
+        "url": "/api/v2//reports/sms_messages/data",
+        "summary": "Data | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_reports-sms-messages-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_events-unregister-create",
+        "category": "events",
+        "method": "POST",
+        "url": "/api/v2//events/",
+        "summary": "Unregister | TeamUp Developers",
+        "file": "teamup_api_clean/events/endpoints_events-unregister-create.md"
+    },
+    {
+        "endpoint": "endpoints_recurring-reservations-partial-update",
+        "category": "misc",
+        "method": "PATCH",
+        "url": "/api/v2//recurring_reservations/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_recurring-reservations-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_gift-cards",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Gift Cards | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_gift-cards.md"
+    },
+    {
+        "endpoint": "endpoints_store-product-attributes-destroy",
+        "category": "store",
+        "method": "DELETE",
+        "url": "/api/v2//store/product_attributes/",
+        "summary": "Delete | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-product-attributes-destroy.md"
+    },
+    {
+        "endpoint": "endpoints_payment-subscriptions-list",
+        "category": "payments",
+        "method": "GET",
+        "url": "/api/v2//payment_subscriptions",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/payments/endpoints_payment-subscriptions-list.md"
+    },
+    {
+        "endpoint": "endpoints_customer-registration-blocks-list",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customer_registration_blocks",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-registration-blocks-list.md"
+    },
+    {
+        "endpoint": "introduction",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Introduction | TeamUp Developers",
+        "file": "teamup_api_clean/misc/introduction.md"
+    },
+    {
+        "endpoint": "endpoints_reports-store-orders-data-get-data",
+        "category": "store",
+        "method": "GET",
+        "url": "/api/v2//reports/store_orders/data",
+        "summary": "Data | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_reports-store-orders-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_customer-forms-update",
+        "category": "customers",
+        "method": "PUT",
+        "url": "/api/v2//customer_forms/",
+        "summary": "Update Customer Form | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-forms-update.md"
+    },
+    {
+        "endpoint": "endpoints_content-collections-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//content_collections",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_content-collections-list.md"
+    },
+    {
+        "endpoint": "endpoints_instructors-report",
+        "category": "reports",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Instructors Report | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_instructors-report.md"
+    },
+    {
+        "endpoint": "endpoints_sms-messages-report",
+        "category": "reports",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "SMS Messages Report | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_sms-messages-report.md"
+    },
+    {
+        "endpoint": "endpoints_wellhub",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Wellhub | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_wellhub.md"
+    },
+    {
+        "endpoint": "endpoints_reports-discount-code-uses-data-get-data",
+        "category": "discount-codes",
+        "method": "GET",
+        "url": "/api/v2//reports/discount_code_uses/data",
+        "summary": "Data | TeamUp Developers",
+        "file": "teamup_api_clean/discount-codes/endpoints_reports-discount-code-uses-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_auth-password-login-create",
+        "category": "auth",
+        "method": "POST",
+        "url": "/api/v2//auth/password_login",
+        "summary": "Password Login | TeamUp Developers",
+        "file": "teamup_api_clean/auth/endpoints_auth-password-login-create.md"
+    },
+    {
+        "endpoint": "endpoints_events-update",
+        "category": "events",
+        "method": "PUT",
+        "url": "/api/v2//events/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/events/endpoints_events-update.md"
+    },
+    {
+        "endpoint": "endpoints_memberships-create",
+        "category": "memberships",
+        "method": "POST",
+        "url": "/api/v2//memberships",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_memberships-create.md"
+    },
+    {
+        "endpoint": "endpoints_store-orders-current-order-retrieve",
+        "category": "store",
+        "method": "GET",
+        "url": "/api/v2//store/orders/current_order",
+        "summary": "Current Order | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-orders-current-order-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_recurring-reservations-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//recurring_reservations",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_recurring-reservations-list.md"
+    },
+    {
+        "endpoint": "endpoints_discount-code-applicabilities-destroy",
+        "category": "discount-codes",
+        "method": "DELETE",
+        "url": "/api/v2//discount_code_applicabilities/",
+        "summary": "Delete | TeamUp Developers",
+        "file": "teamup_api_clean/discount-codes/endpoints_discount-code-applicabilities-destroy.md"
+    },
+    {
+        "endpoint": "endpoints_discount-code-applicabilities-update",
+        "category": "discount-codes",
+        "method": "PUT",
+        "url": "/api/v2//discount_code_applicabilities/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/discount-codes/endpoints_discount-code-applicabilities-update.md"
+    },
+    {
+        "endpoint": "endpoints_instructors-availability-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//instructors/",
+        "summary": "Availability | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_instructors-availability-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_family-invites-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//family_invites",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_family-invites-list.md"
+    },
+    {
+        "endpoint": "endpoints_staff-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//staff",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_staff-create.md"
+    },
+    {
+        "endpoint": "endpoints_checkouts",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Checkouts | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_checkouts.md"
+    },
+    {
+        "endpoint": "endpoints_integrations-kisi-groups-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//integrations/kisi/groups",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_integrations-kisi-groups-list.md"
+    },
+    {
+        "endpoint": "endpoints_customer-field-values-retrieve",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customer_field_values/",
+        "summary": "Retrieve Customer Field Value | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-field-values-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_membership-payment-plans-create",
+        "category": "memberships",
+        "method": "POST",
+        "url": "/api/v2//membership_payment_plans",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-payment-plans-create.md"
+    },
+    {
+        "endpoint": "endpoints_communication-broadcast-messages-send-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//communication/broadcast_messages/",
+        "summary": "Send | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_communication-broadcast-messages-send-create.md"
+    },
+    {
+        "endpoint": "endpoints_fees-calculator-bulk-create",
+        "category": "bulk-actions",
+        "method": "POST",
+        "url": "/api/v2//fees_calculator/bulk",
+        "summary": "Bulk Calculate Fees | TeamUp Developers",
+        "file": "teamup_api_clean/bulk-actions/endpoints_fees-calculator-bulk-create.md"
+    },
+    {
+        "endpoint": "endpoints_reports-invoices-data-get-data",
+        "category": "invoices",
+        "method": "GET",
+        "url": "/api/v2//reports/invoices/data",
+        "summary": "Data | TeamUp Developers",
+        "file": "teamup_api_clean/invoices/endpoints_reports-invoices-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_customer-fields-list",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customer_fields",
+        "summary": "List Customer Fields | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-fields-list.md"
+    },
+    {
+        "endpoint": "endpoints_external-calendars-accounts-oauth-2-initiate-create",
+        "category": "external-calendars",
+        "method": "POST",
+        "url": "/api/v2//external_calendars/accounts/oauth2/initiate",
+        "summary": "URL to authorize use of your Google / Microsoft calendars. | TeamUp Developers",
+        "file": "teamup_api_clean/external-calendars/endpoints_external-calendars-accounts-oauth-2-initiate-create.md"
+    },
+    {
+        "endpoint": "endpoints_external-calendars-accounts-list",
+        "category": "external-calendars",
+        "method": "GET",
+        "url": "/api/v2//external_calendars/accounts",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/external-calendars/endpoints_external-calendars-accounts-list.md"
+    },
+    {
+        "endpoint": "endpoints_policies-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//policies/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_policies-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_offering-types-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//offering_types/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_offering-types-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_content-filters",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Content Filters | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_content-filters.md"
+    },
+    {
+        "endpoint": "endpoints_events",
+        "category": "events",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Events | TeamUp Developers",
+        "file": "teamup_api_clean/events/endpoints_events.md"
+    },
+    {
+        "endpoint": "endpoints_communication-notification-types-membership-penalty-messages-create",
+        "category": "memberships",
+        "method": "POST",
+        "url": "/api/v2//communication/notification_types/membership_penalty/messages",
+        "summary": "Create Message | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_communication-notification-types-membership-penalty-messages-create.md"
+    },
+    {
+        "endpoint": "endpoints_customers-icalendar-links-retrieve",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customers/",
+        "summary": "Icalendar Links | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customers-icalendar-links-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_venues-blocked-times-retrieve",
+        "category": "venues",
+        "method": "GET",
+        "url": "/api/v2//venues/",
+        "summary": "Blocked Times | TeamUp Developers",
+        "file": "teamup_api_clean/venues/endpoints_venues-blocked-times-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_reports-classes-export-export-data",
+        "category": "reports",
+        "method": "GET",
+        "url": "/api/v2//reports/classes/export",
+        "summary": "Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_reports-classes-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_offering-type-categories",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Offering Type Categories | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_offering-type-categories.md"
+    },
+    {
+        "endpoint": "endpoints_customer-fields-partial-update",
+        "category": "customers",
+        "method": "PATCH",
+        "url": "/api/v2//customer_fields/",
+        "summary": "Partially update a customer form | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-fields-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_crm-lead-sources-retrieve",
+        "category": "crm",
+        "method": "GET",
+        "url": "/api/v2//crm/lead_sources/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-lead-sources-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_content-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//content",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_content-list.md"
+    },
+    {
+        "endpoint": "endpoints_jobs",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Jobs | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_jobs.md"
+    },
+    {
+        "endpoint": "endpoints_reports-attendance-strikes-export-export-data",
+        "category": "attendance",
+        "method": "GET",
+        "url": "/api/v2//reports/attendance_strikes/export",
+        "summary": "Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/attendance/endpoints_reports-attendance-strikes-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_reports-invoice-line-items-export-export-data",
+        "category": "invoices",
+        "method": "GET",
+        "url": "/api/v2//reports/invoice_line_items/export",
+        "summary": "Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/invoices/endpoints_reports-invoice-line-items-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_external-calendars-accounts-calendars-retrieve-2",
+        "category": "external-calendars",
+        "method": "GET",
+        "url": "/api/v2//external_calendars/accounts/",
+        "summary": "Retrieve a specific calendar. | TeamUp Developers",
+        "file": "teamup_api_clean/external-calendars/endpoints_external-calendars-accounts-calendars-retrieve-2.md"
+    },
+    {
+        "endpoint": "endpoints_store-product-variants-update",
+        "category": "store",
+        "method": "PUT",
+        "url": "/api/v2//store/product_variants/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-product-variants-update.md"
+    },
+    {
+        "endpoint": "endpoints_purchase-fees-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//purchase_fees",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_purchase-fees-list.md"
+    },
+    {
+        "endpoint": "endpoints_venues-create",
+        "category": "venues",
+        "method": "POST",
+        "url": "/api/v2//venues",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/venues/endpoints_venues-create.md"
+    },
+    {
+        "endpoint": "endpoints_auth-two-factor-requirements-retrieve",
+        "category": "auth",
+        "method": "GET",
+        "url": "/api/v2//auth/two_factor/requirements",
+        "summary": "Check 2FA Requirements | TeamUp Developers",
+        "file": "teamup_api_clean/auth/endpoints_auth-two-factor-requirements-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_discount-codes-list",
+        "category": "discount-codes",
+        "method": "GET",
+        "url": "/api/v2//discount_codes",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/discount-codes/endpoints_discount-codes-list.md"
+    },
+    {
+        "endpoint": "endpoints_customer-memberships-bulk-edit-prices-create",
+        "category": "customers",
+        "method": "POST",
+        "url": "/api/v2//customer_memberships/bulk_edit_prices",
+        "summary": "Bulk Edit Prices | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-memberships-bulk-edit-prices-create.md"
+    },
+    {
+        "endpoint": "endpoints_store-products-retrieve",
+        "category": "store",
+        "method": "GET",
+        "url": "/api/v2//store/products/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-products-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_store-orders-create",
+        "category": "store",
+        "method": "POST",
+        "url": "/api/v2//store/orders",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-orders-create.md"
+    },
+    {
+        "endpoint": "endpoints_course-sessions-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//course_sessions/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_course-sessions-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_bulk-actions-export-create",
+        "category": "bulk-actions",
+        "method": "POST",
+        "url": "/api/v2//bulk_actions/",
+        "summary": "Export | TeamUp Developers",
+        "file": "teamup_api_clean/bulk-actions/endpoints_bulk-actions-export-create.md"
+    },
+    {
+        "endpoint": "endpoints_bulk-actions",
+        "category": "bulk-actions",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Bulk Actions | TeamUp Developers",
+        "file": "teamup_api_clean/bulk-actions/endpoints_bulk-actions.md"
+    },
+    {
+        "endpoint": "endpoints_external-calendars-accounts-retrieve",
+        "category": "external-calendars",
+        "method": "GET",
+        "url": "/api/v2//external_calendars/accounts/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/external-calendars/endpoints_external-calendars-accounts-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_images-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//images",
+        "summary": "Create an image | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_images-create.md"
+    },
+    {
+        "endpoint": "endpoints_courses",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Courses | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_courses.md"
+    },
+    {
+        "endpoint": "endpoints_reports-discount-code-uses-export-export-data",
+        "category": "discount-codes",
+        "method": "GET",
+        "url": "/api/v2//reports/discount_code_uses/export",
+        "summary": "Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/discount-codes/endpoints_reports-discount-code-uses-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_reports-customer-membership-holds-grouped-export-export-data",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//reports/customer_membership_holds",
+        "summary": "Grouped Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_reports-customer-membership-holds-grouped-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_customer-forms-list",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customer_forms",
+        "summary": "List Customer Forms | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-forms-list.md"
+    },
+    {
+        "endpoint": "endpoints_availability-schedules-overrides-destroy",
+        "category": "misc",
+        "method": "DELETE",
+        "url": "/api/v2//availability_schedules/",
+        "summary": "Delete Overrides | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_availability-schedules-overrides-destroy.md"
+    },
+    {
+        "endpoint": "endpoints_policy-versions-list",
+        "category": "policies",
+        "method": "GET",
+        "url": "/api/v2//policy_versions",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/policies/endpoints_policy-versions-list.md"
+    },
+    {
+        "endpoint": "endpoints_reports-discount-code-uses-grouped-data-get-data",
+        "category": "discount-codes",
+        "method": "GET",
+        "url": "/api/v2//reports/discount_code_uses",
+        "summary": "Grouped Data | TeamUp Developers",
+        "file": "teamup_api_clean/discount-codes/endpoints_reports-discount-code-uses-grouped-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_feature-flags-status-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//feature_flags/",
+        "summary": "Check Status | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_feature-flags-status-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_events-join-waitlist-create",
+        "category": "events",
+        "method": "POST",
+        "url": "/api/v2//events/",
+        "summary": "Join Waitlist | TeamUp Developers",
+        "file": "teamup_api_clean/events/endpoints_events-join-waitlist-create.md"
+    },
+    {
+        "endpoint": "endpoints_events-initiate-purchase-create",
+        "category": "events",
+        "method": "POST",
+        "url": "/api/v2//events/",
+        "summary": "Initiate Purchase | TeamUp Developers",
+        "file": "teamup_api_clean/events/endpoints_events-initiate-purchase-create.md"
+    },
+    {
+        "endpoint": "endpoints_membership-categories-destroy",
+        "category": "memberships",
+        "method": "DELETE",
+        "url": "/api/v2//membership_categories/",
+        "summary": "Delete a membership category with replacement | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-categories-destroy.md"
+    },
+    {
+        "endpoint": "endpoints_customer-forms-create",
+        "category": "customers",
+        "method": "POST",
+        "url": "/api/v2//customer_forms",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-forms-create.md"
+    },
+    {
+        "endpoint": "endpoints_instructors-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//instructors/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_instructors-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_membership-registration-grants",
+        "category": "memberships",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Membership Registration Grants | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-registration-grants.md"
+    },
+    {
+        "endpoint": "endpoints_crm-workflow-actions-destroy",
+        "category": "crm",
+        "method": "DELETE",
+        "url": "/api/v2//crm/workflow_actions/",
+        "summary": "Delete | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-workflow-actions-destroy.md"
+    },
+    {
+        "endpoint": "endpoints_checkins-settings-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//checkins/settings",
+        "summary": "checkins_settings_retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_checkins-settings-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_customer-field-changes-report",
+        "category": "customers",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Customer Field Changes Report | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-field-changes-report.md"
+    },
+    {
+        "endpoint": "endpoints_store-order-items-list",
+        "category": "store",
+        "method": "GET",
+        "url": "/api/v2//store/order_items",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-order-items-list.md"
+    },
+    {
+        "endpoint": "endpoints_customers-list",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customers",
+        "summary": "List customers | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customers-list.md"
+    },
+    {
+        "endpoint": "endpoints_checkouts-items-quantity-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//checkouts/",
+        "summary": "Update Item Quantity | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_checkouts-items-quantity-create.md"
+    },
+    {
+        "endpoint": "endpoints_customer-memberships-cancel-create",
+        "category": "customers",
+        "method": "POST",
+        "url": "/api/v2//customer_memberships/",
+        "summary": "Cancel | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-memberships-cancel-create.md"
+    },
+    {
+        "endpoint": "endpoints_store-order-items-partial-update",
+        "category": "store",
+        "method": "PATCH",
+        "url": "/api/v2//store/order_items/",
+        "summary": "Update Quantity | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-order-items-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_events-register-create",
+        "category": "events",
+        "method": "POST",
+        "url": "/api/v2//events/",
+        "summary": "Register | TeamUp Developers",
+        "file": "teamup_api_clean/events/endpoints_events-register-create.md"
+    },
+    {
+        "endpoint": "endpoints_waiver-agreements-create",
+        "category": "waivers",
+        "method": "POST",
+        "url": "/api/v2//waiver_agreements",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/waivers/endpoints_waiver-agreements-create.md"
+    },
+    {
+        "endpoint": "endpoints_crm-lead-forms-submit-create",
+        "category": "crm",
+        "method": "POST",
+        "url": "/api/v2//crm/lead_forms/",
+        "summary": "Submit | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-lead-forms-submit-create.md"
+    },
+    {
+        "endpoint": "endpoints_applications-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//applications",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_applications-list.md"
+    },
+    {
+        "endpoint": "endpoints_slots-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//slots/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_slots-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_reports-classes-grouped-data-get-data",
+        "category": "reports",
+        "method": "GET",
+        "url": "/api/v2//reports/classes",
+        "summary": "Grouped Data | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_reports-classes-grouped-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_slots",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Slots | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_slots.md"
+    },
+    {
+        "endpoint": "endpoints_customer-forms-partial-update",
+        "category": "customers",
+        "method": "PATCH",
+        "url": "/api/v2//customer_forms/",
+        "summary": "Partially Update Customer Form | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-forms-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_broadcast-messages",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Broadcast Messages | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_broadcast-messages.md"
+    },
+    {
+        "endpoint": "endpoints_product-variant-inventory-adjustments",
+        "category": "store",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Product Variant Inventory Adjustments | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_product-variant-inventory-adjustments.md"
+    },
+    {
+        "endpoint": "endpoints_reports-customer-credits-data-get-data",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//reports/customer_credits/data",
+        "summary": "Data | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_reports-customer-credits-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_memberships-update",
+        "category": "memberships",
+        "method": "PUT",
+        "url": "/api/v2//memberships/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_memberships-update.md"
+    },
+    {
+        "endpoint": "endpoints_events-create",
+        "category": "events",
+        "method": "POST",
+        "url": "/api/v2//events",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/events/endpoints_events-create.md"
+    },
+    {
+        "endpoint": "endpoints_reports-sms-messages-grouped-export-export-data",
+        "category": "reports",
+        "method": "GET",
+        "url": "/api/v2//reports/sms_messages",
+        "summary": "Grouped Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_reports-sms-messages-grouped-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_reports-customer-memberships-grouped-data-get-data",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//reports/customer_memberships",
+        "summary": "Grouped Data | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_reports-customer-memberships-grouped-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_slots-register-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//slots/",
+        "summary": "Register | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_slots-register-create.md"
+    },
+    {
+        "endpoint": "endpoints_integrations-wellhub-venue-mappings-list",
+        "category": "venues",
+        "method": "GET",
+        "url": "/api/v2//integrations/wellhub/venue_mappings",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/venues/endpoints_integrations-wellhub-venue-mappings-list.md"
+    },
+    {
+        "endpoint": "endpoints_reports-customer-field-changes-export-export-data",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//reports/customer_field_changes/export",
+        "summary": "Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_reports-customer-field-changes-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_reports-course-session-attendances-data-get-data",
+        "category": "attendance",
+        "method": "GET",
+        "url": "/api/v2//reports/course_session_attendances/data",
+        "summary": "Data | TeamUp Developers",
+        "file": "teamup_api_clean/attendance/endpoints_reports-course-session-attendances-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_payment-methods",
+        "category": "payments",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Payment Methods | TeamUp Developers",
+        "file": "teamup_api_clean/payments/endpoints_payment-methods.md"
+    },
+    {
+        "endpoint": "endpoints_auth-two-factor-start-verification-create",
+        "category": "auth",
+        "method": "POST",
+        "url": "/api/v2//auth/two_factor/start_verification",
+        "summary": "Start 2FA Verification | TeamUp Developers",
+        "file": "teamup_api_clean/auth/endpoints_auth-two-factor-start-verification-create.md"
+    },
+    {
+        "endpoint": "endpoints_integrations-wellhub-venue-mappings-update",
+        "category": "venues",
+        "method": "PUT",
+        "url": "/api/v2//integrations/wellhub/venue_mappings/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/venues/endpoints_integrations-wellhub-venue-mappings-update.md"
+    },
+    {
+        "endpoint": "endpoints_events-external-id-update",
+        "category": "events",
+        "method": "GET",
+        "url": "/api/v2//events/external_id",
+        "summary": "Create or Update | TeamUp Developers",
+        "file": "teamup_api_clean/events/endpoints_events-external-id-update.md"
+    },
+    {
+        "endpoint": "endpoints_membership-payment-plans-list",
+        "category": "memberships",
+        "method": "GET",
+        "url": "/api/v2//membership_payment_plans",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-payment-plans-list.md"
+    },
+    {
+        "endpoint": "endpoints_store-order-items-confirm-delivery-create",
+        "category": "store",
+        "method": "POST",
+        "url": "/api/v2//store/order_items/",
+        "summary": "Confirm Delivery | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-order-items-confirm-delivery-create.md"
+    },
+    {
+        "endpoint": "endpoints_integrations-kisi-config-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//integrations/kisi/config",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_integrations-kisi-config-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_discount-code-applicabilities-retrieve",
+        "category": "discount-codes",
+        "method": "GET",
+        "url": "/api/v2//discount_code_applicabilities/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/discount-codes/endpoints_discount-code-applicabilities-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_payment-subscriptions",
+        "category": "payments",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Payment Subscriptions | TeamUp Developers",
+        "file": "teamup_api_clean/payments/endpoints_payment-subscriptions.md"
+    },
+    {
+        "endpoint": "endpoints_store-order-items-create",
+        "category": "store",
+        "method": "POST",
+        "url": "/api/v2//store/order_items",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-order-items-create.md"
+    },
+    {
+        "endpoint": "endpoints_family-invites",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Family Invites | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_family-invites.md"
+    },
+    {
+        "endpoint": "endpoints_crm",
+        "category": "crm",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "CRM | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm.md"
+    },
+    {
+        "endpoint": "endpoints_instructor-pay-rates-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//instructor_pay_rates/",
+        "summary": "Retrieve Instructor Pay Rate | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_instructor-pay-rates-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_customer-field-values",
+        "category": "customers",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Customer Field Values | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-field-values.md"
+    },
+    {
+        "endpoint": "endpoints_gift-cards-deliver-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//gift_cards/",
+        "summary": "Deliver Gift Card | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_gift-cards-deliver-create.md"
+    },
+    {
+        "endpoint": "endpoints_external-calendars-staff-calendar-settings-list",
+        "category": "external-calendars",
+        "method": "GET",
+        "url": "/api/v2//external_calendars/staff_calendar_settings",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/external-calendars/endpoints_external-calendars-staff-calendar-settings-list.md"
+    },
+    {
+        "endpoint": "endpoints_membership-categories-update",
+        "category": "memberships",
+        "method": "PUT",
+        "url": "/api/v2//membership_categories/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-categories-update.md"
+    },
+    {
+        "endpoint": "endpoints_fees-calculator",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Fees Calculator | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_fees-calculator.md"
+    },
+    {
+        "endpoint": "endpoints_events-bulk-cancel-create",
+        "category": "events",
+        "method": "POST",
+        "url": "/api/v2//events/bulk_cancel",
+        "summary": "Bulk Cancel | TeamUp Developers",
+        "file": "teamup_api_clean/events/endpoints_events-bulk-cancel-create.md"
+    },
+    {
+        "endpoint": "endpoints_offering-types-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//offering_types",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_offering-types-create.md"
+    },
+    {
+        "endpoint": "endpoints_store-product-attributes-list",
+        "category": "store",
+        "method": "GET",
+        "url": "/api/v2//store/product_attributes",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-product-attributes-list.md"
+    },
+    {
+        "endpoint": "endpoints_ai-business-advisor-reports-content-retrieve",
+        "category": "reports",
+        "method": "GET",
+        "url": "/api/v2//ai/business_advisor_reports/",
+        "summary": "Get Content | TeamUp Developers",
+        "file": "teamup_api_clean/reports/endpoints_ai-business-advisor-reports-content-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_store-product-variants-list",
+        "category": "store",
+        "method": "GET",
+        "url": "/api/v2//store/product_variants",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_store-product-variants-list.md"
+    },
+    {
+        "endpoint": "endpoints_membership-registration-grants-partial-update",
+        "category": "memberships",
+        "method": "PATCH",
+        "url": "/api/v2//membership_registration_grants/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-registration-grants-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_availability-schedules-update",
+        "category": "misc",
+        "method": "PUT",
+        "url": "/api/v2//availability_schedules/",
+        "summary": "Update | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_availability-schedules-update.md"
+    },
+    {
+        "endpoint": "endpoints_membership-categories-partial-update",
+        "category": "memberships",
+        "method": "PATCH",
+        "url": "/api/v2//membership_categories/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-categories-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_auth-check-account-retrieve",
+        "category": "auth",
+        "method": "GET",
+        "url": "/api/v2//auth/check_account",
+        "summary": "Check Account | TeamUp Developers",
+        "file": "teamup_api_clean/auth/endpoints_auth-check-account-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_membership-payment-plans-partial-update",
+        "category": "memberships",
+        "method": "PATCH",
+        "url": "/api/v2//membership_payment_plans/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_membership-payment-plans-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_reports-invoices-export-export-data",
+        "category": "invoices",
+        "method": "GET",
+        "url": "/api/v2//reports/invoices/export",
+        "summary": "Data Export | TeamUp Developers",
+        "file": "teamup_api_clean/invoices/endpoints_reports-invoices-export-export-data.md"
+    },
+    {
+        "endpoint": "endpoints_customer-memberships-share-create",
+        "category": "customers",
+        "method": "POST",
+        "url": "/api/v2//customer_memberships/",
+        "summary": "Share | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-memberships-share-create.md"
+    },
+    {
+        "endpoint": "endpoints_applications",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Applications | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_applications.md"
+    },
+    {
+        "endpoint": "endpoints_applications-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//applications",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_applications-create.md"
+    },
+    {
+        "endpoint": "endpoints_customers-resend-email-confirmation-create",
+        "category": "customers",
+        "method": "POST",
+        "url": "/api/v2//customers/",
+        "summary": "Resend Email Confirmation | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customers-resend-email-confirmation-create.md"
+    },
+    {
+        "endpoint": "endpoints_customers-sms-account-update",
+        "category": "customers",
+        "method": "PUT",
+        "url": "/api/v2//customers/",
+        "summary": "Sms Account | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customers-sms-account-update.md"
+    },
+    {
+        "endpoint": "endpoints_reports-store-order-items-grouped-data-get-data",
+        "category": "store",
+        "method": "GET",
+        "url": "/api/v2//reports/store_order_items",
+        "summary": "Grouped Data | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_reports-store-order-items-grouped-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_business-closures-destroy",
+        "category": "misc",
+        "method": "DELETE",
+        "url": "/api/v2//business_closures/",
+        "summary": "Delete | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_business-closures-destroy.md"
+    },
+    {
+        "endpoint": "endpoints_external-calendars-staff-calendar-settings-partial-update",
+        "category": "external-calendars",
+        "method": "PATCH",
+        "url": "/api/v2//external_calendars/staff_calendar_settings/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/external-calendars/endpoints_external-calendars-staff-calendar-settings-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_integrations-learn-to-skate-current-membership-number-retrieve",
+        "category": "memberships",
+        "method": "GET",
+        "url": "/api/v2//integrations/learn_to_skate/current_membership_number",
+        "summary": "Get current membership number | TeamUp Developers",
+        "file": "teamup_api_clean/memberships/endpoints_integrations-learn-to-skate-current-membership-number-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_events-registration-timelines-resolved-retrieve",
+        "category": "events",
+        "method": "GET",
+        "url": "/api/v2//events/",
+        "summary": "Resolved Registration Timelines | TeamUp Developers",
+        "file": "teamup_api_clean/events/endpoints_events-registration-timelines-resolved-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_attendances-list",
+        "category": "attendance",
+        "method": "GET",
+        "url": "/api/v2//attendances",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/attendance/endpoints_attendances-list.md"
+    },
+    {
+        "endpoint": "endpoints_gift-cards-config-metadata-retrieve",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//gift_cards/config/metadata",
+        "summary": "Get Gift Card Metadata | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_gift-cards-config-metadata-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_checkouts-items-destroy",
+        "category": "misc",
+        "method": "DELETE",
+        "url": "/api/v2//checkouts/",
+        "summary": "Get Or Remove Item | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_checkouts-items-destroy.md"
+    },
+    {
+        "endpoint": "endpoints_instructors-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//instructors",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_instructors-list.md"
+    },
+    {
+        "endpoint": "endpoints_registration-options",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Registration Options | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_registration-options.md"
+    },
+    {
+        "endpoint": "endpoints_events-retrieve",
+        "category": "events",
+        "method": "GET",
+        "url": "/api/v2//events/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/events/endpoints_events-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_customers-add-child-create",
+        "category": "customers",
+        "method": "POST",
+        "url": "/api/v2//customers/",
+        "summary": "Add Child | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customers-add-child-create.md"
+    },
+    {
+        "endpoint": "endpoints_registration-options-list",
+        "category": "misc",
+        "method": "GET",
+        "url": "/api/v2//registration_options",
+        "summary": "List | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_registration-options-list.md"
+    },
+    {
+        "endpoint": "endpoints_crm-lead-forms-partial-update",
+        "category": "crm",
+        "method": "PATCH",
+        "url": "/api/v2//crm/lead_forms/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/crm/endpoints_crm-lead-forms-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_customer-registration-blocks-retrieve",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customer_registration_blocks/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-registration-blocks-retrieve.md"
+    },
+    {
+        "endpoint": "endpoints_communication-broadcast-messages-create",
+        "category": "misc",
+        "method": "POST",
+        "url": "/api/v2//communication/broadcast_messages",
+        "summary": "Create | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_communication-broadcast-messages-create.md"
+    },
+    {
+        "endpoint": "endpoints_recurring-reservations-unavailable-upcoming-events-list",
+        "category": "events",
+        "method": "GET",
+        "url": "/api/v2//recurring_reservations/",
+        "summary": "Unavailable Upcoming Events | TeamUp Developers",
+        "file": "teamup_api_clean/events/endpoints_recurring-reservations-unavailable-upcoming-events-list.md"
+    },
+    {
+        "endpoint": "endpoints_checkouts-partial-update",
+        "category": "misc",
+        "method": "PATCH",
+        "url": "/api/v2//checkouts/",
+        "summary": "Partially Update | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_checkouts-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_discount-code-applicabilities",
+        "category": "discount-codes",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Discount Code Applicabilities | TeamUp Developers",
+        "file": "teamup_api_clean/discount-codes/endpoints_discount-code-applicabilities.md"
+    },
+    {
+        "endpoint": "endpoints_offering-types-ordering-partial-update",
+        "category": "store",
+        "method": "PATCH",
+        "url": "/api/v2//offering_types/ordering",
+        "summary": "Reorder | TeamUp Developers",
+        "file": "teamup_api_clean/store/endpoints_offering-types-ordering-partial-update.md"
+    },
+    {
+        "endpoint": "endpoints_integrations",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Integrations | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_integrations.md"
+    },
+    {
+        "endpoint": "endpoints_policies",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Policies | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_policies.md"
+    },
+    {
+        "endpoint": "endpoints_invoices-report",
+        "category": "invoices",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Invoices Report | TeamUp Developers",
+        "file": "teamup_api_clean/invoices/endpoints_invoices-report.md"
+    },
+    {
+        "endpoint": "endpoints_reports-invoices-grouped-data-get-data",
+        "category": "invoices",
+        "method": "GET",
+        "url": "/api/v2//reports/invoices",
+        "summary": "Grouped Data | TeamUp Developers",
+        "file": "teamup_api_clean/invoices/endpoints_reports-invoices-grouped-data-get-data.md"
+    },
+    {
+        "endpoint": "endpoints_push-notification-tokens",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Push Notification Tokens | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_push-notification-tokens.md"
+    },
+    {
+        "endpoint": "endpoints_content",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Content | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_content.md"
+    },
+    {
+        "endpoint": "endpoints_customer-field-values-list",
+        "category": "customers",
+        "method": "GET",
+        "url": "/api/v2//customer_field_values",
+        "summary": "List Customer Field Values | TeamUp Developers",
+        "file": "teamup_api_clean/customers/endpoints_customer-field-values-list.md"
+    },
+    {
+        "endpoint": "endpoints_venue-rooms",
+        "category": "venues",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Venue Rooms | TeamUp Developers",
+        "file": "teamup_api_clean/venues/endpoints_venue-rooms.md"
+    },
+    {
+        "endpoint": "endpoints_availability-schedules",
+        "category": "misc",
+        "method": "UNKNOWN",
+        "url": "/unknown-endpoint",
+        "summary": "Availability Schedules | TeamUp Developers",
+        "file": "teamup_api_clean/misc/endpoints_availability-schedules.md"
+    },
+    {
+        "endpoint": "endpoints_waivers-retrieve",
+        "category": "waivers",
+        "method": "GET",
+        "url": "/api/v2//waivers/",
+        "summary": "Retrieve | TeamUp Developers",
+        "file": "teamup_api_clean/waivers/endpoints_waivers-retrieve.md"
+    }
+]
